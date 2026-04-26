@@ -9,7 +9,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2600&pause=900&color=8FFF52&center=true&vCenter=true&width=980&lines=I+build+AI-enabled+products+with+real+architecture.;Models+are+one+step+in+the+pipeline+%E2%80%94+not+the+whole+product.;UX+intelligence+%E2%80%A2+secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Based+in+Sousse%2C+Tunisia."
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2600&pause=900&color=8FFF52&center=true&vCenter=true&width=760&lines=AI+systems+with+real+architecture.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Sousse%2C+Tunisia."
     alt="Typing intro"
   />
 </p>
@@ -31,64 +31,38 @@
 </p>
 
 <p align="center">
-  <img src="./readme-assets/profile-surface.svg" width="100%" alt="Custom profile surface" />
-</p>
-
-<p align="center">
-  <img src="./readme-assets/runtime-terminal.svg" width="100%" alt="Runtime terminal panel" />
-</p>
-
-<p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=300&height=36&lines=ABOUT+ME"
-    alt="About Me heading"
+    src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:050705,46:162415,70:8FFF52,100:050705&text=systems-first%20engineering&fontColor=EEF6EF&fontSize=28&fontAlignY=38&desc=secure%20backends%20%E2%80%A2%20retrieval%20%E2%80%A2%20OCR%20%E2%80%A2%20computer%20vision&descAlignY=66"
+    alt="Theme banner"
   />
 </p>
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo** who likes building AI products that feel engineered, not improvised. What pulls me in is the part around the model: the retrieval layer, the backend contracts, the evidence pipeline, the report structure, and the interface that makes the result useful.
+```bash
+> whoami
+Yacin Ben Kacem
 
-Most of my work starts with a messy real-world input and ends with a structured output someone can actually act on. That is why I keep coming back to multi-service architecture, secure backend flows, OCR and computer vision, UX analysis, and automation that can survive beyond the demo phase.
+> studying
+Applied Computer Science Engineering @ ENISo
 
-- I build products as complete systems, not isolated AI prompts.
-- I care about interfaces that feel sharp, readable, and intentional.
-- I take security seriously from the start: identity, tokens, validation, and access control.
-- I like turning screenshots, documents, and noisy inputs into structured outputs.
+> based_in
+Sousse, Tunisia
 
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=WHAT+I+BUILD"
-    alt="What I Build heading"
-  />
-</p>
-
-### UX Insight Platform
-
-This is the public system that currently represents me best: a containerized UX analysis platform designed to turn screenshots and interface evidence into structured recommendations for product, design, and engineering teams.
-
-- Angular frontend for guided audit flows
-- Spring Boot gateway for orchestration
-- FastAPI services for LLM reasoning and computer vision
-- ChromaDB retrieval for pattern matching and context enrichment
-- Report-ready outputs instead of vague AI summaries
-
-```mermaid
-flowchart LR
-    A[Angular Audit UI] --> B[Spring Boot Gateway]
-    B --> C[Vision and OCR Service]
-    B --> D[LLM Reasoning Service]
-    D <--> E[ChromaDB Retrieval]
-    C --> F[Evidence Pipeline]
-    D --> F
-    E --> F
-    F --> G[Structured UX Report]
+> current_focus
+AI systems, secure backends, retrieval, OCR, and computer vision
 ```
 
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=300&height=36&lines=STACK"
-    alt="Stack heading"
-  />
-</p>
+## About Me
+
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, retrieval, validation, OCR, computer vision, and outputs that are actually useful to people.
+
+What matters most to me is clarity. I like taking messy inputs and turning them into structured systems that feel deliberate, reliable, and clean to use. That is why I keep coming back to secure backend flows, multi-service AI architecture, UX analysis, and automation that can survive beyond a demo.
+
+- Building complete systems, not isolated prompts
+- Designing interfaces that feel sharp, readable, and intentional
+- Taking security seriously from the start
+- Turning screenshots, documents, and noisy inputs into structured outputs
+
+## Stack
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python" title="Python" />
@@ -124,45 +98,7 @@ flowchart LR
   <code>Automation Pipelines</code>
 </p>
 
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=460&height=36&lines=SELECTED+WORK"
-    alt="Selected Work heading"
-  />
-</p>
-
-<p align="center">
-  <a href="https://github.com/YACINBK/ux-insight-platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=ux-insight-platform&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="UX Insight Platform repo card" />
-  </a>
-  <a href="https://github.com/YACINBK/portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=portfolio&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Portfolio repo card" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/YACINBK/image-vectorization">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=image-vectorization&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Image Vectorization repo card" />
-  </a>
-  <a href="https://github.com/YACINBK/webots-ur10-pick-and-place-yolo8">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=webots-ur10-pick-and-place-yolo8&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Webots UR10 repo card" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/YACINBK/smart-city-sousse-2030-V2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=smart-city-sousse-2030-V2&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Smart City Sousse repo card" />
-  </a>
-</p>
-
-Private work still says a lot about me too: secure AI productivity systems, local-inference workflows, governed content automation, and structured extraction pipelines that are not public yet.
-
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=340&height=36&lines=ACTIVITY"
-    alt="Activity heading"
-  />
-</p>
+## Activity
 
 <p align="center">
   <img
@@ -191,12 +127,7 @@ Private work still says a lot about me too: secure AI productivity systems, loca
   />
 </p>
 
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=LEARNING"
-    alt="Learning heading"
-  />
-</p>
+## Learning
 
 - Applied Computer Science Engineering student at **ENISo**
 - Built independent systems around LLM workflows, backend orchestration, secure delivery, and computer vision
@@ -204,12 +135,7 @@ Private work still says a lot about me too: secure AI productivity systems, loca
 - Ongoing learning through **NVIDIA**, **DeepLearning.AI**, and hands-on system building
 - Open to internships and technical collaborations involving AI systems, backend engineering, intelligent tooling, or automation
 
-<p align="left">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=320&height=36&lines=CONNECT"
-    alt="Connect heading"
-  />
-</p>
+## Connect
 
 <p align="left">
   <a href="mailto:yacinbenkacem19@gmail.com">Email</a> |
