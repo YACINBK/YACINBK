@@ -36,13 +36,13 @@
 Yacin Ben Kacem
 
 > studying
-Applied Computer Science Engineering @ ENISo
+Applied Computer Science Engineering @ ENISo-National School Of Engineering Of Sousse
 
 > based_in
-Sousse, Tunisia
+Monastir, Tunisia
 
 > current_focus
-AI systems, secure backends, retrieval, OCR, and computer vision
+AI systems, smart agentic integrations
 ```
 
 ## About Me
