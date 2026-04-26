@@ -30,12 +30,6 @@
   <img src="https://komarev.com/ghpvc/?username=YACINBK&style=for-the-badge&color=8FFF52&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=160&color=0:050705,46:162415,70:8FFF52,100:050705&text=systems-first%20engineering&fontColor=EEF6EF&fontSize=28&fontAlignY=38&desc=secure%20backends%20%E2%80%A2%20retrieval%20%E2%80%A2%20OCR%20%E2%80%A2%20computer%20vision&descAlignY=66"
-    alt="Theme banner"
-  />
-</p>
 
 ```bash
 > whoami
