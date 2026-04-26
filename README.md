@@ -1,23 +1,152 @@
-# Hi 👋, I'm Yacin
+<!-- Profile README draft for github.com/YACINBK -->
 
-### Applied CS engineering student building AI products, automation pipelines, and secured web platforms.
-
-- 🔭 I'm currently working on **UX Insight Platform
-A containerized platform with Angular, a Spring Boot gateway, two FastAPI services, ChromaDB retrieval, and Docker Compose deployment.**
-
-- 🌱 I'm currently learning **System designs and agentic integrations**
-
-- 📫 How to reach me **Email : yacinbenkacem19@gmail.com**
-
-- 👨‍💻 All of my projects are available at **[https://yacinbk.github.io/portfolio/](https://yacinbk.github.io/portfolio/)**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/YACINBK" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="YACINBK" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/Yacin Ben kacem" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Yacin Ben kacem" height="30" width="40" /></a>
-<a href="https://twitter.com/@YACINBK_XXVI" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@YACINBK_XXVI" height="30" width="40" /></a>
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050705,45:8FFF52,100:050705&text=YACIN%20BEN%20KACEM&fontColor=EEF6EF&fontSize=34&fontAlignY=38&desc=Applied%20CS%20Student%20%40%20ENISo%20%7C%20AI%20Product%20Engineer%20from%20Sousse&descAlignY=60&animation=fadeIn"
+    alt="Header banner"
+  />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/anaconda" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=anaconda" alt="anaconda" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/angular" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=angular" alt="angular" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/arduino" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=arduino" alt="arduino" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/azure" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=azure" alt="azure" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bash" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/c" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/canvasjs" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/chartjs" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/chartdotjs/FF6384" alt="chartjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/cplusplus" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/csharp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cs" alt="csharp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/d3js" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=d3" alt="d3js" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dotnet" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dotnet" alt="dotnet" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/elasticsearch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=elasticsearch" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/fastapi" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flask" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flask" alt="flask" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/gcp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=gcp" alt="gcp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/gradio" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/gradio/FF7C00" alt="gradio" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/graphql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=graphql" alt="graphql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/huggingface" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/keras" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="keras" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kibana" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kibana/kibana-original.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matlab" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=matlab" alt="matlab" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matplotlib" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mlflow" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="mlflow" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nginx" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/ollama" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/ollama" alt="ollama" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/opencv" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=opencv" alt="opencv" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/oracle" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postman" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postman" alt="postman" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/puppeteer" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/puppeteer/40B5A4" alt="puppeteer" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/qt" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=qt" alt="qt" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/redis" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=redis" alt="redis" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scully" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="scully" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/seaborn" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/selenium" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=selenium" alt="selenium" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/spring" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=spring" alt="spring" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/streamlit" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tensorflow" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/unreal" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=unreal" alt="unreal" width="40" height="40"/> </a></p>
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2600&pause=900&color=8FFF52&center=true&vCenter=true&width=980&lines=I+build+AI-enabled+products+with+real+architecture.;LLM+workflows+%E2%80%A2+secure+platforms+%E2%80%A2+UX+intelligence.;RAG%2C+computer+vision%2C+automation%2C+and+backend+systems.;Based+in+Sousse%2C+Tunisia."
+    alt="Typing intro"
+  />
+</p>
 
+<p align="center">
+  <a href="https://yacinbk.github.io/portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Live-050705?style=for-the-badge&logo=firefoxbrowser&logoColor=8FFF52&labelColor=11160F" alt="Portfolio badge" />
+  </a>
+  <a href="https://github.com/YACINBK">
+    <img src="https://img.shields.io/badge/GitHub-YACINBK-050705?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=11160F" alt="GitHub badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/yacin-ben-kacem/">
+    <img src="https://img.shields.io/badge/LinkedIn-Yacin%20Ben%20Kacem-050705?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=11160F" alt="LinkedIn badge" />
+  </a>
+  <a href="mailto:yacinbenkacem19@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-050705?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=11160F" alt="Email badge" />
+  </a>
+</p>
+
+```txt
+yacin@systems:~$ status
+role     -> Applied CS Student @ ENISo
+focus    -> AI products, automation pipelines, secured web platforms
+location -> Sousse, Tunisia
+current  -> UX Insight Platform
+signal   -> AI is one pipeline step, not the whole product
+```
+
+## About Me
+
+I build AI-enabled products that combine strong UX thinking with production-grade engineering. Most of my work sits where **LLM workflows**, **security boundaries**, **retrieval**, **computer vision**, and **backend orchestration** meet.
+
+- Building systems, not isolated demos
+- Turning AI output into structured, usable product signals
+- Treating identity, contracts, and deployment as first-class concerns
+- Making interfaces feel sharp, readable, and deliberate
+
+## Current Build
+
+### UX Insight Platform
+
+Containerized UX analysis platform that combines interface evidence, AI pipelines, and report-ready outputs for product teams.
+
+- Angular frontend with guided audit flows
+- Spring Boot gateway for orchestration
+- FastAPI services for LLM reasoning and computer vision
+- ChromaDB-backed retrieval for pattern matching
+- Structured outputs for product, design, and engineering teams
+
+## Focus Areas
+
+- Multi-service AI platforms: gateway orchestration, retrieval pipelines, and structured outputs
+- UX intelligence: screenshot analysis, heuristic scoring, and evidence-based recommendations
+- Secure delivery: Keycloak-style IAM patterns, OIDC/JWT validation, and controlled backend flows
+- Computer vision systems: OCR, YOLOv8, robotics simulation, and real-time analysis
+
+## Toolbox
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python" title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="42" alt="Java" title="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="42" alt="TypeScript" title="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="42" alt="Angular" title="Angular" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" alt="React" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="42" alt="Spring Boot" title="Spring Boot" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="42" alt="FastAPI" title="FastAPI" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="42" alt="Django" title="Django" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="42" alt="Docker" title="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="42" alt="MongoDB" title="MongoDB" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="42" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git" title="Git" />
+</p>
+
+<p align="center">
+  <code>RAG</code>
+  <code>ChromaDB</code>
+  <code>YOLOv8</code>
+  <code>OCR</code>
+  <code>Ollama</code>
+  <code>Keycloak</code>
+  <code>OIDC / JWT</code>
+  <code>Triton</code>
+  <code>Playwright</code>
+  <code>Webots</code>
+</p>
+
+## Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/YACINBK/ux-insight-platform">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=ux-insight-platform&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="UX Insight Platform repo card" />
+  </a>
+  <a href="https://github.com/YACINBK/portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=portfolio&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Portfolio repo card" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YACINBK/image-vectorization">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=image-vectorization&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Image Vectorization repo card" />
+  </a>
+  <a href="https://github.com/YACINBK/webots-ur10-pick-and-place-yolo8">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=webots-ur10-pick-and-place-yolo8&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Webots UR10 repo card" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YACINBK/smart-city-sousse-2030-V2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YACINBK&repo=smart-city-sousse-2030-V2&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Smart City Sousse repo card" />
+  </a>
+</p>
+
+Private work also matters here: governed automation flows, secured AI productivity systems, and structured extraction pipelines that are not public yet.
+
+## Signals
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" height="165" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YACINBK&background=050705&border=253128&stroke=8FFF52&ring=8FFF52&fire=8FFF52&currStreakLabel=D9FFB8&sideLabels=EEF6EF&currStreakNum=EEF6EF&sideNums=EEF6EF&dates=8CA08A" alt="GitHub streak" />
+</p>
+
+## Learning and Direction
+
+- Applied Computer Science Engineering student at **ENISo**
+- Building outside coursework with a strong bias toward productized systems
+- Learning through shipped work, NVIDIA coursework, DeepLearning.AI tracks, and hands-on architecture experiments
+- Open to internships and technical collaborations that involve AI, backend systems, or intelligent tooling
+
+## Connect
+
+<p align="left">
+  <a href="mailto:yacinbenkacem19@gmail.com">Email</a> |
+  <a href="https://github.com/YACINBK">GitHub</a> |
+  <a href="https://www.linkedin.com/in/yacin-ben-kacem/">LinkedIn</a> |
+  <a href="https://yacinbk.github.io/portfolio">Portfolio</a>
+</p>
