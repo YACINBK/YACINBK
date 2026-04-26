@@ -30,14 +30,13 @@
   <img src="https://komarev.com/ghpvc/?username=YACINBK&style=for-the-badge&color=8FFF52&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-```txt
-yacin@systems:~$ status
-role         -> Applied CS Engineering student @ ENISo
-location     -> Sousse, Tunisia
-current      -> UX Insight Platform
-build-style  -> structured input -> orchestration -> evidence -> output
-core-signal  -> AI is one subsystem inside a deliberate product
-```
+<p align="center">
+  <img src="./readme-assets/profile-surface.svg" width="100%" alt="Custom profile surface" />
+</p>
+
+<p align="center">
+  <img src="./readme-assets/runtime-terminal.svg" width="100%" alt="Runtime terminal panel" />
+</p>
 
 <p align="left">
   <img
@@ -46,22 +45,19 @@ core-signal  -> AI is one subsystem inside a deliberate product
   />
 </p>
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I am most interested in products where AI has to earn its place inside a real system: retrieval in the middle, validation around the edges, structured output at the end, and an interface that feels intentional instead of noisy.
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo** who likes building AI products that feel engineered, not improvised. What pulls me in is the part around the model: the retrieval layer, the backend contracts, the evidence pipeline, the report structure, and the interface that makes the result useful.
 
-What describes me best is not just "I use AI." It is this: I like turning messy inputs into disciplined systems. That means multi-service architectures, secure flows, explicit contracts, OCR and vision pipelines, product-facing reports, and backend logic that can survive beyond the demo.
+Most of my work starts with a messy real-world input and ends with a structured output someone can actually act on. That is why I keep coming back to multi-service architecture, secure backend flows, OCR and computer vision, UX analysis, and automation that can survive beyond the demo phase.
 
-| Signal | What it means in practice |
-| --- | --- |
-| `SYS-01` | I build products as linked systems, not isolated features. |
-| `INT-02` | I care about interfaces with clear pacing, strong response, and less ornamental noise. |
-| `SEC-03` | Identity, validation, and access control belong early in the build, not at the end. |
-| `VLM-04` | Screenshots, OCR, computer vision, and structured AI reasoning are recurring themes in my work. |
-| `OPS-05` | I prefer architecture that can move from prototype to dependable release. |
+- I build products as complete systems, not isolated AI prompts.
+- I care about interfaces that feel sharp, readable, and intentional.
+- I take security seriously from the start: identity, tokens, validation, and access control.
+- I like turning screenshots, documents, and noisy inputs into structured outputs.
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=CURRENT+BUILD"
-    alt="Current Build heading"
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=WHAT+I+BUILD"
+    alt="What I Build heading"
   />
 </p>
 
@@ -89,8 +85,8 @@ flowchart LR
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=390&height=36&lines=TOOLBOX"
-    alt="Toolbox heading"
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=300&height=36&lines=STACK"
+    alt="Stack heading"
   />
 </p>
 
@@ -110,10 +106,10 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/keycloak/8FFF52" height="34" alt="Keycloak" title="Keycloak" />
-  <img src="https://cdn.simpleicons.org/playwright/8FFF52" height="34" alt="Playwright" title="Playwright" />
-  <img src="https://cdn.simpleicons.org/ollama/8FFF52" height="34" alt="Ollama" title="Ollama" />
-  <img src="https://cdn.simpleicons.org/githubactions/8FFF52" height="34" alt="GitHub Actions" title="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Keycloak-050705?style=for-the-badge&logo=keycloak&logoColor=8FFF52&labelColor=11160F" alt="Keycloak" />
+  <img src="https://img.shields.io/badge/Playwright-050705?style=for-the-badge&logo=playwright&logoColor=8FFF52&labelColor=11160F" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Ollama-050705?style=for-the-badge&logo=ollama&logoColor=8FFF52&labelColor=11160F" alt="Ollama" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-050705?style=for-the-badge&logo=githubactions&logoColor=8FFF52&labelColor=11160F" alt="GitHub Actions" />
 </p>
 
 <p align="center">
@@ -130,8 +126,8 @@ flowchart LR
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=540&height=36&lines=FEATURED+REPOSITORIES"
-    alt="Featured Repositories heading"
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=460&height=36&lines=SELECTED+WORK"
+    alt="Selected Work heading"
   />
 </p>
 
@@ -163,8 +159,8 @@ Private work still says a lot about me too: secure AI productivity systems, loca
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=LIVE+SIGNALS"
-    alt="Live Signals heading"
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=340&height=36&lines=ACTIVITY"
+    alt="Activity heading"
   />
 </p>
 
@@ -197,8 +193,8 @@ Private work still says a lot about me too: secure AI productivity systems, loca
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=560&height=36&lines=LEARNING+AND+DIRECTION"
-    alt="Learning and Direction heading"
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=28&duration=2200&pause=1000&color=8FFF52&vCenter=true&repeat=false&width=420&height=36&lines=LEARNING"
+    alt="Learning heading"
   />
 </p>
 
