@@ -1,15 +1,16 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050705,38:132015,68:8FFF52,100:050705&text=YACIN%20BEN%20KACEM&fontColor=EEF6EF&fontSize=34&fontAlignY=38&desc=Applied%20CS%20Student%20%40%20ENISo%20%7C%20AI%20Product%20Engineer%20from%20Sousse&descAlignY=61&animation=fadeIn"
-    alt="Header banner"
-  />
+  <img src="./readme-assets/ybk-gaming-logo.svg" width="170" alt="YBK gaming logo" />
+</p>
+
+<p align="center">
+  <img src="./readme-assets/hero-dock.svg" width="100%" alt="YBK animated hero panel" />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2600&pause=900&color=8FFF52&center=true&vCenter=true&width=760&lines=AI+systems+with+real+architecture.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Sousse%2C+Tunisia."
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2500&pause=850&color=8FFF52&center=true&vCenter=true&width=860&lines=AI+systems+with+real+architecture.;Smart+agentic+integrations+that+ship.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Monastir%2C+Tunisia."
     alt="Typing intro"
   />
 </p>
@@ -30,13 +31,16 @@
   <img src="https://komarev.com/ghpvc/?username=YACINBK&style=for-the-badge&color=8FFF52&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
+<p align="center">
+  <img src="./readme-assets/about-bar.svg" width="100%" alt="About section banner" />
+</p>
 
 ```bash
 > whoami
 Yacin Ben Kacem
 
 > studying
-Applied Computer Science Engineering @ ENISo-National School Of Engineering Of Sousse
+Applied Computer Science Engineering @ ENISo - National School Of Engineering Of Sousse
 
 > based_in
 Monastir, Tunisia
@@ -45,7 +49,9 @@ Monastir, Tunisia
 AI systems, smart agentic integrations
 ```
 
-## About Me
+<p align="center">
+  <img src="./readme-assets/about-panel.svg" width="100%" alt="About panel" />
+</p>
 
 I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, retrieval, validation, OCR, computer vision, and outputs that are actually useful to people.
 
@@ -56,7 +62,9 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 - Taking security seriously from the start
 - Turning screenshots, documents, and noisy inputs into structured outputs
 
-## Stack
+<p align="center">
+  <img src="./readme-assets/stack-bar.svg" width="100%" alt="Stack section banner" />
+</p>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python" title="Python" />
@@ -92,23 +100,25 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
   <code>Automation Pipelines</code>
 </p>
 
-## Activity
+<p align="center">
+  <img src="./readme-assets/activity-bar.svg" width="100%" alt="Activity section banner" />
+</p>
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=D9FFB8&line=8FFF52&point=EEF6EF&area=true&area_color=132015&hide_border=true&title_color=8FFF52&custom_title=Contribution%20Flow"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=0B100D&color=D9FFB8&line=8FFF52&point=EEF6EF&area=true&area_color=132015&hide_border=true&title_color=8FFF52&custom_title=Contribution%20Flow"
     alt="Contribution graph"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github"
+    src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=0B100D&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github"
     height="165"
     alt="GitHub stats"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=00000000&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=0B100D&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128"
     height="165"
     alt="Top languages"
   />
@@ -116,12 +126,18 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=YACINBK&background=050705&border=253128&stroke=8FFF52&ring=8FFF52&fire=8FFF52&currStreakLabel=D9FFB8&sideLabels=EEF6EF&currStreakNum=EEF6EF&sideNums=EEF6EF&dates=8CA08A"
+    src="https://streak-stats.demolab.com?user=YACINBK&background=0B100D&border=253128&stroke=8FFF52&ring=8FFF52&fire=8FFF52&currStreakLabel=D9FFB8&sideLabels=EEF6EF&currStreakNum=EEF6EF&sideNums=EEF6EF&dates=8CA08A"
     alt="GitHub streak"
   />
 </p>
 
-## Learning
+<p align="center">
+  <img src="./readme-assets/learning-bar.svg" width="100%" alt="Learning section banner" />
+</p>
+
+<p align="center">
+  <img src="./readme-assets/learning-panel.svg" width="100%" alt="Learning panel" />
+</p>
 
 - Applied Computer Science Engineering student at **ENISo**
 - Built independent systems around LLM workflows, backend orchestration, secure delivery, and computer vision
@@ -129,13 +145,23 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 - Ongoing learning through **NVIDIA**, **DeepLearning.AI**, and hands-on system building
 - Open to internships and technical collaborations involving AI systems, backend engineering, intelligent tooling, or automation
 
-## Connect
+<p align="center">
+  <img src="./readme-assets/connect-bar.svg" width="100%" alt="Connect section banner" />
+</p>
 
-<p align="left">
-  <a href="mailto:yacinbenkacem19@gmail.com">Email</a> |
-  <a href="https://github.com/YACINBK">GitHub</a> |
-  <a href="https://www.linkedin.com/in/yacin-ben-kacem/">LinkedIn</a> |
-  <a href="https://yacinbk.github.io/portfolio">Portfolio</a>
+<p align="center">
+  <a href="mailto:yacinbenkacem19@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-CONTACT-050705?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=11160F" alt="Email" />
+  </a>
+  <a href="https://github.com/YACINBK">
+    <img src="https://img.shields.io/badge/GITHUB-YACINBK-050705?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=11160F" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/yacin-ben-kacem/">
+    <img src="https://img.shields.io/badge/LINKEDIN-YACIN%20BEN%20KACEM-050705?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=11160F" alt="LinkedIn" />
+  </a>
+  <a href="https://yacinbk.github.io/portfolio">
+    <img src="https://img.shields.io/badge/PORTFOLIO-OPEN-050705?style=for-the-badge&logo=firefoxbrowser&logoColor=8FFF52&labelColor=11160F" alt="Portfolio" />
+  </a>
 </p>
 
 <p align="center">
