@@ -1,0 +1,121 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030507"/>
+      <stop offset="0.48" stop-color="#07111A"/>
+      <stop offset="1" stop-color="#04080A"/>
+    </linearGradient>
+    <linearGradient id="moduleBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#081018"/>
+      <stop offset="1" stop-color="#050A0E"/>
+    </linearGradient>
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(248 181) rotate(90) scale(138 138)">
+      <stop stop-color="#00D8FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#00D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1188 72) rotate(136) scale(250 180)">
+      <stop stop-color="#C5FF00" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#C5FF00" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="panelDots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.1" cy="1.1" r="0.7" fill="#7FCBFF" fill-opacity="0.1"/>
+    </pattern>
+    <pattern id="panelGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#8BC8FF" stroke-opacity="0.08"/>
+    </pattern>
+    <style>
+      .panelSweep {
+        animation: panelSweep 7.8s linear infinite;
+      }
+      .hudBreathe {
+        animation: hudBreathe 4.6s ease-in-out infinite;
+        transform-origin: 248px 181px;
+      }
+      .hudScan {
+        animation: hudScan 11s linear infinite;
+        transform-origin: 248px 181px;
+      }
+      .logoBreathe {
+        animation: logoBreathe 4.6s ease-in-out infinite;
+        transform-origin: 248px 181px;
+      }
+      @keyframes panelSweep {
+        0% { transform: translateX(-280px); opacity: 0; }
+        14% { opacity: 0.18; }
+        86% { opacity: 0.18; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+      @keyframes hudBreathe {
+        0%, 100% { opacity: 0.62; transform: scale(0.985); }
+        50% { opacity: 1; transform: scale(1.02); }
+      }
+      @keyframes hudScan {
+        0% { transform: rotate(0deg); opacity: 0.28; }
+        50% { opacity: 0.7; }
+        100% { transform: rotate(360deg); opacity: 0.28; }
+      }
+      @keyframes logoBreathe {
+        0%, 100% { transform: scale(0.99); }
+        50% { transform: scale(1.03); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1400" height="360" rx="28" fill="url(#panelBg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#panelDots)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#panelGrid)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#rightGlow)"/>
+  <rect x="2" y="2" width="1396" height="356" rx="26" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
+  <rect class="panelSweep" x="-280" y="40" width="280" height="280" rx="24" fill="url(#rightGlow)"/>
+
+  <rect x="36" y="34" width="430" height="292" rx="26" fill="#050A0E" stroke="#7FCBFF" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="500" y="34" width="864" height="292" rx="26" fill="#060A0E" stroke="#8BC8FF" stroke-opacity="0.18" stroke-width="2"/>
+
+  <rect x="56" y="52" width="390" height="256" rx="18" fill="url(#leftGlow)"/>
+  <g class="hudBreathe">
+    <circle cx="248" cy="181" r="116" stroke="#00D8FF" stroke-opacity="0.16" stroke-width="2"/>
+    <circle cx="248" cy="181" r="90" stroke="#F3FBFF" stroke-opacity="0.82" stroke-width="4"/>
+    <circle cx="248" cy="181" r="74" stroke="#C5FF00" stroke-opacity="0.18" stroke-width="3"/>
+    <circle cx="248" cy="181" r="56" stroke="#00D8FF" stroke-opacity="0.58" stroke-width="3"/>
+    <circle cx="248" cy="181" r="34" stroke="#00D8FF" stroke-opacity="0.34" stroke-width="2"/>
+  </g>
+  <circle cx="248" cy="181" r="132" stroke="#00D8FF" stroke-opacity="0.24" stroke-width="3" stroke-dasharray="3 9"/>
+  <g class="hudScan">
+    <path d="M248 67A114 114 0 0 1 336 108" stroke="#C5FF00" stroke-width="8" stroke-linecap="round"/>
+    <path d="M335 250A114 114 0 0 1 254 295" stroke="#00D8FF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M136 181H184" stroke="#00D8FF" stroke-opacity="0.65" stroke-width="3"/>
+  <path d="M312 181H360" stroke="#00D8FF" stroke-opacity="0.65" stroke-width="3"/>
+  <path d="M248 69V117" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
+  <path d="M248 245V293" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
+
+  <g class="logoBreathe">
+    <path d="M248 104L296 132V190L248 218L200 190V132L248 104Z" stroke="#EAFBFF" stroke-opacity="0.9" stroke-width="3"/>
+    <path d="M248 124L270 144L248 156L226 144L248 124Z" fill="#00D8FF" fill-opacity="0.2" stroke="#00D8FF" stroke-width="2"/>
+    <path d="M272 146L290 164L272 182L260 164L272 146Z" fill="#C5FF00" fill-opacity="0.18" stroke="#C5FF00" stroke-width="2"/>
+    <path d="M248 174L270 186L248 208L226 186L248 174Z" fill="#00D8FF" fill-opacity="0.2" stroke="#00D8FF" stroke-width="2"/>
+    <path d="M224 146L236 164L224 182L206 164L224 146Z" fill="#C5FF00" fill-opacity="0.16" stroke="#C5FF00" stroke-width="2"/>
+    <circle cx="248" cy="164" r="8" fill="#F3FBFF"/>
+    <circle cx="248" cy="164" r="4" fill="#00D8FF"/>
+  </g>
+
+  <rect x="86" y="268" width="130" height="24" fill="#081520" stroke="#00D8FF" stroke-opacity="0.32"/>
+  <rect x="232" y="268" width="170" height="24" fill="#0A110B" stroke="#C5FF00" stroke-opacity="0.34"/>
+  <text x="100" y="285" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Monastir</text>
+  <text x="246" y="285" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Computer Vision</text>
+
+  <path d="M528 72H612" stroke="#C5FF00" stroke-opacity="0.72" stroke-width="3"/>
+  <text x="528" y="92" fill="#C5FF00" font-family="'Courier New', monospace" font-size="18" letter-spacing="3">LIVE SYSTEM</text>
+  <text x="528" y="148" fill="#F6FBFF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="80" letter-spacing="-2">YACIN BEN KACEM</text>
+  <text x="528" y="196" fill="#EAFBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="34">Applied CS Student @ ENISo // AI Product Engineer</text>
+  <text x="528" y="242" fill="#D4E7F4" font-family="'Segoe UI', Arial, sans-serif" font-size="26">Computer vision systems shaped with clear architecture,</text>
+  <text x="528" y="274" fill="#D4E7F4" font-family="'Segoe UI', Arial, sans-serif" font-size="26">sharp visual feedback, and production-minded engineering.</text>
+
+  <rect x="528" y="302" width="148" height="24" fill="#081520" stroke="#00D8FF" stroke-opacity="0.36"/>
+  <rect x="692" y="302" width="112" height="24" fill="#0A110B" stroke="#C5FF00" stroke-opacity="0.36"/>
+  <rect x="820" y="302" width="208" height="24" fill="#081520" stroke="#00D8FF" stroke-opacity="0.36"/>
+  <text x="542" y="319" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Monastir</text>
+  <text x="706" y="319" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">ENISo</text>
+  <text x="834" y="319" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Computer Vision</text>
+
+</svg>

@@ -1,0 +1,91 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markBg" x1="20" y1="18" x2="220" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070A"/>
+      <stop offset="0.55" stop-color="#07111A"/>
+      <stop offset="1" stop-color="#040608"/>
+    </linearGradient>
+    <radialGradient id="markCyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(112 122) rotate(90) scale(96 96)">
+      <stop stop-color="#00D8FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#00D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="markLimeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(166 72) rotate(120) scale(78 78)">
+      <stop stop-color="#C5FF00" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#C5FF00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markLine" x1="68" y1="56" x2="176" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FBFF"/>
+      <stop offset="0.56" stop-color="#00D8FF"/>
+      <stop offset="1" stop-color="#6BE8FF"/>
+    </linearGradient>
+    <pattern id="markDots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="0.7" fill="#7EC8FF" fill-opacity="0.12"/>
+    </pattern>
+    <filter id="markBlur" x="0" y="0" width="240" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .markHalo {
+        animation: markHalo 4.6s ease-in-out infinite;
+        transform-origin: 120px 120px;
+      }
+      .markScan {
+        animation: markScan 8.4s linear infinite;
+        transform-origin: 120px 120px;
+      }
+      .markCore {
+        animation: markCore 4.6s ease-in-out infinite;
+        transform-origin: 120px 120px;
+      }
+      @keyframes markHalo {
+        0%, 100% { opacity: 0.52; transform: scale(0.96); }
+        50% { opacity: 1; transform: scale(1.04); }
+      }
+      @keyframes markScan {
+        0% { transform: rotate(0deg); opacity: 0.3; }
+        50% { opacity: 0.75; }
+        100% { transform: rotate(360deg); opacity: 0.3; }
+      }
+      @keyframes markCore {
+        0%, 100% { transform: scale(0.985); }
+        50% { transform: scale(1.025); }
+      }
+    </style>
+  </defs>
+
+  <rect x="18" y="18" width="204" height="204" rx="30" fill="url(#markBg)"/>
+  <rect x="18" y="18" width="204" height="204" rx="30" fill="url(#markDots)"/>
+  <rect x="18" y="18" width="204" height="204" rx="30" fill="url(#markLimeGlow)"/>
+  <rect x="19.5" y="19.5" width="201" height="201" rx="28.5" stroke="#6BE8FF" stroke-opacity="0.2" stroke-width="3"/>
+
+  <g class="markHalo" filter="url(#markBlur)">
+    <circle cx="120" cy="120" r="74" fill="url(#markCyanGlow)"/>
+  </g>
+
+  <circle cx="120" cy="120" r="76" stroke="#F3FBFF" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="120" cy="120" r="60" stroke="#00D8FF" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="3 9"/>
+  <circle cx="120" cy="120" r="40" stroke="#00D8FF" stroke-opacity="0.32" stroke-width="2"/>
+  <circle cx="120" cy="120" r="22" stroke="#C5FF00" stroke-opacity="0.4" stroke-width="2"/>
+
+  <g class="markScan">
+    <path d="M120 52A68 68 0 0 1 177 83" stroke="#C5FF00" stroke-width="6" stroke-linecap="round"/>
+    <path d="M168 154A68 68 0 0 1 130 187" stroke="#00D8FF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g class="markCore">
+    <path d="M120 54L170 84V144L120 174L70 144V84L120 54Z" stroke="url(#markLine)" stroke-width="3.5"/>
+    <path d="M120 74L144 96L120 109L96 96L120 74Z" fill="#00D8FF" fill-opacity="0.18" stroke="#6BE8FF" stroke-width="2"/>
+    <path d="M146 98L166 120L146 142L132 120L146 98Z" fill="#C5FF00" fill-opacity="0.16" stroke="#C5FF00" stroke-width="2"/>
+    <path d="M120 131L144 144L120 166L96 144L120 131Z" fill="#00D8FF" fill-opacity="0.18" stroke="#6BE8FF" stroke-width="2"/>
+    <path d="M94 98L108 120L94 142L74 120L94 98Z" fill="#C5FF00" fill-opacity="0.14" stroke="#C5FF00" stroke-width="2"/>
+    <circle cx="120" cy="120" r="10" fill="#F3FBFF"/>
+    <circle cx="120" cy="120" r="5" fill="#00D8FF"/>
+  </g>
+
+  <path d="M48 120H70" stroke="#6BE8FF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M170 120H192" stroke="#6BE8FF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M120 48V70" stroke="#6BE8FF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M120 170V192" stroke="#6BE8FF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M54 68H78V54" stroke="#C5FF00" stroke-opacity="0.65" stroke-width="3"/>
+  <path d="M186 172H162V186" stroke="#C5FF00" stroke-opacity="0.65" stroke-width="3"/>
+</svg>

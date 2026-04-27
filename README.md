@@ -1,17 +1,17 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img src="./readme-assets/ybk-monogram.svg" width="132" alt="YBK operator crest" />
+  <img src="./readme-assets/vision-core-mark.svg" width="136" alt="Animated computer vision crest" />
 </p>
 
 <p align="center">
-  <img src="./readme-assets/hero-panel.svg" width="100%" alt="YBK profile hero panel" />
+  <img src="./readme-assets/hero-control-panel.svg" width="100%" alt="Computer vision control panel hero" />
 </p>
 
-<h3 align="center">AI systems with real architecture</h3>
+<h2 align="center">Computer vision systems with real architecture</h2>
 
 <p align="center">
-  Secure backends, retrieval, OCR, computer vision, and agentic workflows built with structure, clarity, and production-minded engineering.
+  Computer vision products built with clear interfaces, sharp feedback loops, and production-minded engineering.
 </p>
 
 <p align="center">
@@ -48,10 +48,10 @@ Applied Computer Science Engineering @ ENISo - National School Of Engineering Of
 Monastir, Tunisia
 
 > current_focus
-AI systems, secure backends, and agentic integrations
+Computer vision systems, secure AI tooling, and agentic integrations
 ```
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, retrieval, validation, OCR, computer vision, and outputs that are actually useful to people.
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, validation, computer vision, and outputs that are actually useful to people.
 
 What matters most to me is clarity. I like taking messy inputs and turning them into structured systems that feel deliberate, reliable, and clean to use. That is why I keep coming back to secure backend flows, multi-service AI architecture, UX analysis, and automation that can survive beyond a demo.
 
