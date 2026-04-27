@@ -1,0 +1,45 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="monoBg" x1="28" y1="22" x2="192" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A08"/>
+      <stop offset="1" stop-color="#0B100D"/>
+    </linearGradient>
+    <linearGradient id="monoLine" x1="76" y1="54" x2="154" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FCE0"/>
+      <stop offset="0.56" stop-color="#8FFF52"/>
+      <stop offset="1" stop-color="#D8F9BF"/>
+    </linearGradient>
+    <radialGradient id="monoGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(154 64) rotate(138) scale(110 92)">
+      <stop stop-color="#8FFF52" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8FFF52" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .monoShine { animation: monoShine 6.8s linear infinite; }
+      @keyframes monoShine {
+        0% { transform: translateX(-120px); opacity: 0; }
+        12% { opacity: 0.18; }
+        88% { opacity: 0.18; }
+        100% { transform: translateX(220px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect x="16" y="16" width="188" height="188" rx="28" fill="url(#monoBg)"/>
+  <rect x="16" y="16" width="188" height="188" rx="28" fill="url(#monoGlow)"/>
+  <rect x="17.5" y="17.5" width="185" height="185" rx="26.5" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="3"/>
+
+  <path d="M110 40L156.765 67V121L110 148L63.2346 121V67L110 40Z" stroke="#8FFF52" stroke-opacity="0.78" stroke-width="3"/>
+
+  <path d="M76 71L94.5 91.5L111 71" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94.5 91.5V144" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round"/>
+
+  <path d="M110 71V144" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M110 71H127.5C139 71 146.5 78.5 146.5 88C146.5 97.5 139.5 104 128 104H110" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M110 104H130.5C143.5 104 152 112 152 123.5C152 135 143.5 144 129.5 144H110" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M152 71V144" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M152 107L176.5 71" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M152 107L177 144" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
+
+  <rect class="monoShine" x="-120" y="34" width="68" height="152" rx="20" fill="url(#monoGlow)"/>
+</svg>

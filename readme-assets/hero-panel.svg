@@ -1,0 +1,55 @@
+<svg width="1400" height="280" viewBox="0 0 1400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1400" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A08"/>
+      <stop offset="0.56" stop-color="#0B100D"/>
+      <stop offset="1" stop-color="#070A08"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 78) rotate(145) scale(320 180)">
+      <stop stop-color="#8FFF52" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8FFF52" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="heroGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#8FFF52" stroke-opacity="0.035"/>
+    </pattern>
+    <style>
+      .heroSweep { animation: heroSweep 8s linear infinite; }
+      @keyframes heroSweep {
+        0% { transform: translateX(-260px); opacity: 0; }
+        12% { opacity: 0.18; }
+        88% { opacity: 0.18; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1400" height="280" rx="28" fill="url(#heroBg)"/>
+  <rect width="1400" height="280" rx="28" fill="url(#heroGrid)"/>
+  <rect width="1400" height="280" rx="28" fill="url(#heroGlow)"/>
+  <rect x="2" y="2" width="1396" height="276" rx="26" stroke="#8FFF52" stroke-opacity="0.16" stroke-width="4"/>
+
+  <rect class="heroSweep" x="-260" y="46" width="260" height="188" rx="24" fill="url(#heroGlow)"/>
+
+  <path d="M1120 50L1200 96V188L1120 234L1040 188V96L1120 50Z" stroke="#8FFF52" stroke-opacity="0.1" stroke-width="4"/>
+  <path d="M1078 101L1105 131L1130 101" stroke="#F1FBEA" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1105 131V189" stroke="#F1FBEA" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1128 101V189" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1128 101H1150C1163 101 1172 109 1172 120C1172 131 1164 139 1151 139H1128" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1128 139H1154C1168 139 1178 148 1178 161C1178 175 1167 189 1151 189H1128" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1180 101V189" stroke="#EEF6EF" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1180 145L1209 101" stroke="#EEF6EF" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1180 145L1210 189" stroke="#EEF6EF" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="74" y="72" fill="#8FFF52" font-family="'Courier New', monospace" font-size="15" letter-spacing="3.2">YBK // PROFILE</text>
+  <text x="74" y="136" fill="#F4FBF1" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="62">YACIN BEN KACEM</text>
+  <text x="74" y="181" fill="#E2F8DA" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="27">Applied CS Student @ ENISo | AI Product Engineer</text>
+  <text x="74" y="215" fill="#C1CBC2" font-family="'Segoe UI', Arial, sans-serif" font-size="20">Secure backends, retrieval, OCR, computer vision, and agentic integrations</text>
+  <text x="74" y="243" fill="#C1CBC2" font-family="'Segoe UI', Arial, sans-serif" font-size="20">built with structure, clarity, and real engineering constraints in mind.</text>
+
+  <rect x="74" y="94" width="148" height="34" rx="17" fill="#101612" stroke="#8FFF52" stroke-opacity="0.24"/>
+  <rect x="238" y="94" width="148" height="34" rx="17" fill="#101612" stroke="#8FFF52" stroke-opacity="0.24"/>
+  <rect x="402" y="94" width="198" height="34" rx="17" fill="#101612" stroke="#8FFF52" stroke-opacity="0.24"/>
+  <text x="148" y="116" text-anchor="middle" fill="#D9F7CA" font-family="'Courier New', monospace" font-size="14">MONASTIR</text>
+  <text x="312" y="116" text-anchor="middle" fill="#D9F7CA" font-family="'Courier New', monospace" font-size="14">ENISo</text>
+  <text x="501" y="116" text-anchor="middle" fill="#D9F7CA" font-family="'Courier New', monospace" font-size="14">AGENTIC SYSTEMS</text>
+</svg>

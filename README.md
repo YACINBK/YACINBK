@@ -1,16 +1,16 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img src="./readme-assets/ybk-gaming-logo.svg" width="170" alt="YBK gaming logo" />
+  <img src="./readme-assets/ybk-monogram.svg" width="128" alt="YBK monogram" />
 </p>
 
 <p align="center">
-  <img src="./readme-assets/hero-dock.svg" width="100%" alt="YBK animated hero panel" />
+  <img src="./readme-assets/hero-panel.svg" width="100%" alt="YBK hero panel" />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=22&duration=2500&pause=850&color=8FFF52&center=true&vCenter=true&width=860&lines=AI+systems+with+real+architecture.;Smart+agentic+integrations+that+ship.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Monastir%2C+Tunisia."
+    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=20&duration=3200&pause=1300&color=8FFF52&center=true&vCenter=true&width=720&lines=AI+systems+with+real+architecture.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Monastir%2C+Tunisia."
     alt="Typing intro"
   />
 </p>
@@ -46,12 +46,8 @@ Applied Computer Science Engineering @ ENISo - National School Of Engineering Of
 Monastir, Tunisia
 
 > current_focus
-AI systems, smart agentic integrations
+AI systems, secure backends, and agentic integrations
 ```
-
-<p align="center">
-  <img src="./readme-assets/about-panel.svg" width="100%" alt="About panel" />
-</p>
 
 I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, retrieval, validation, OCR, computer vision, and outputs that are actually useful to people.
 
@@ -133,10 +129,6 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 
 <p align="center">
   <img src="./readme-assets/learning-bar.svg" width="100%" alt="Learning section banner" />
-</p>
-
-<p align="center">
-  <img src="./readme-assets/learning-panel.svg" width="100%" alt="Learning panel" />
 </p>
 
 - Applied Computer Science Engineering student at **ENISo**
