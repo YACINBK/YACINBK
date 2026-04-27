@@ -1,0 +1,51 @@
+<svg width="1400" height="270" viewBox="0 0 1400 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutPanelBg" x1="0" y1="0" x2="1400" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060806"/>
+      <stop offset="1" stop-color="#09100B"/>
+    </linearGradient>
+    <style>
+      .aboutCard { animation: aboutCard 6s ease-in-out infinite; }
+      .aboutCard2 { animation: aboutCard2 6.6s ease-in-out infinite; }
+      .aboutCard3 { animation: aboutCard3 7.2s ease-in-out infinite; }
+      @keyframes aboutCard {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes aboutCard2 {
+        0%, 100% { transform: translateY(-2px); }
+        50% { transform: translateY(5px); }
+      }
+      @keyframes aboutCard3 {
+        0%, 100% { transform: translateY(1px); }
+        50% { transform: translateY(-5px); }
+      }
+    </style>
+  </defs>
+  <rect width="1400" height="270" rx="24" fill="url(#aboutPanelBg)"/>
+  <rect x="2" y="2" width="1396" height="266" rx="22" stroke="#8FFF52" stroke-opacity="0.16" stroke-width="4"/>
+
+  <g class="aboutCard">
+    <rect x="52" y="54" width="404" height="162" rx="22" fill="#0B100D" stroke="#8FFF52" stroke-opacity="0.22"/>
+    <text x="84" y="96" fill="#8FFF52" font-family="'Courier New', monospace" font-size="14" letter-spacing="2.4">SYSTEMS</text>
+    <text x="84" y="136" fill="#EEF6EF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="28">Architecture first.</text>
+    <text x="84" y="171" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">I care about the layers around the model:</text>
+    <text x="84" y="197" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">contracts, retrieval, orchestration, and output quality.</text>
+  </g>
+
+  <g class="aboutCard2">
+    <rect x="498" y="54" width="404" height="162" rx="22" fill="#0B100D" stroke="#8FFF52" stroke-opacity="0.22"/>
+    <text x="530" y="96" fill="#8FFF52" font-family="'Courier New', monospace" font-size="14" letter-spacing="2.4">INTERFACES</text>
+    <text x="530" y="136" fill="#EEF6EF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="28">Readable by design.</text>
+    <text x="530" y="171" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">I want products to feel sharp, calm, and useful,</text>
+    <text x="530" y="197" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">not noisy, vague, or built around gimmicks.</text>
+  </g>
+
+  <g class="aboutCard3">
+    <rect x="944" y="54" width="404" height="162" rx="22" fill="#0B100D" stroke="#8FFF52" stroke-opacity="0.22"/>
+    <text x="976" y="96" fill="#8FFF52" font-family="'Courier New', monospace" font-size="14" letter-spacing="2.4">SECURITY</text>
+    <text x="976" y="136" fill="#EEF6EF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="28">Early, not bolted on.</text>
+    <text x="976" y="171" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">Identity, validation, and access control should be</text>
+    <text x="976" y="197" fill="#A8B5AA" font-family="'Segoe UI', Arial, sans-serif" font-size="18">part of the build from the first serious version.</text>
+  </g>
+</svg>

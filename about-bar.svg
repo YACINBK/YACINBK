@@ -1,0 +1,23 @@
+<svg width="1400" height="120" viewBox="0 0 1400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="1400" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A08"/>
+      <stop offset="0.62" stop-color="#0A120C"/>
+      <stop offset="1" stop-color="#070A08"/>
+    </linearGradient>
+    <style>
+      .aboutSweep { animation: aboutSweep 4.5s linear infinite; }
+      @keyframes aboutSweep {
+        0% { transform: translateX(-240px); opacity: 0; }
+        10% { opacity: 0.6; }
+        90% { opacity: 0.6; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+    </style>
+  </defs>
+  <rect width="1400" height="120" rx="22" fill="url(#aboutBg)"/>
+  <rect x="2" y="2" width="1396" height="116" rx="20" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="4"/>
+  <text x="54" y="53" fill="#EEF6EF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="34">ABOUT ME</text>
+  <text x="54" y="86" fill="#8FFF52" font-family="'Courier New', monospace" font-size="15" letter-spacing="3">SYSTEM DESIGN OVER PROMPT THEATRICS</text>
+  <rect class="aboutSweep" x="-240" y="98" width="240" height="6" rx="3" fill="#8FFF52"/>
+</svg>

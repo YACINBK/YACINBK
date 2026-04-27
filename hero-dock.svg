@@ -1,0 +1,87 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dockBg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060806"/>
+      <stop offset="0.52" stop-color="#09110B"/>
+      <stop offset="1" stop-color="#060806"/>
+    </linearGradient>
+    <radialGradient id="dockGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 100) rotate(140) scale(380 240)">
+      <stop stop-color="#8FFF52" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8FFF52" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dockGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#8FFF52" stroke-opacity="0.06"/>
+    </pattern>
+    <style>
+      .dockPulse { animation: dockPulse 3.4s ease-in-out infinite; transform-origin: center; }
+      .dockFloat { animation: dockFloat 7s ease-in-out infinite; }
+      .dockScan { animation: dockScan 5.2s linear infinite; }
+      .dockBlink { animation: dockBlink 1.2s steps(1) infinite; }
+      @keyframes dockPulse {
+        0%, 100% { opacity: 0.52; transform: scale(0.99); }
+        50% { opacity: 0.94; transform: scale(1.01); }
+      }
+      @keyframes dockFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes dockScan {
+        0% { transform: translateX(-420px); opacity: 0; }
+        10% { opacity: 0.32; }
+        90% { opacity: 0.32; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+      @keyframes dockBlink {
+        0%, 54% { opacity: 1; }
+        55%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1400" height="420" rx="28" fill="url(#dockBg)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#dockGrid)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#dockGlow)"/>
+  <rect x="2" y="2" width="1396" height="416" rx="26" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="4"/>
+
+  <rect class="dockScan" x="-420" y="44" width="420" height="332" rx="22" fill="url(#dockGlow)"/>
+
+  <g class="dockFloat">
+    <rect x="46" y="52" width="320" height="316" rx="26" fill="#0A0F0B" stroke="#8FFF52" stroke-opacity="0.22"/>
+    <path d="M206 88L288 135V236L206 284L124 236V135L206 88Z" fill="#0C120D" stroke="#8FFF52" stroke-width="4"/>
+    <path d="M158 149L184 178L208 149" stroke="#D9FFB8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M184 178V233" stroke="#D9FFB8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M204 149V233" stroke="#8FFF52" stroke-width="10" stroke-linecap="round"/>
+    <path d="M204 149H232C244 149 252 157 252 167C252 177 244 185 232 185H204" stroke="#8FFF52" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M204 185H235C248 185 258 193 258 207C258 221 248 233 233 233H204" stroke="#8FFF52" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M266 149V233" stroke="#EEF6EF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M266 190L296 149" stroke="#EEF6EF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M266 190L297 233" stroke="#EEF6EF" stroke-width="10" stroke-linecap="round"/>
+    <text x="206" y="324" text-anchor="middle" fill="#D9FFB8" font-family="'Courier New', monospace" font-size="16" letter-spacing="3.2">YBK GAMING MARK</text>
+  </g>
+
+  <text x="416" y="96" fill="#8FFF52" font-family="'Courier New', monospace" font-size="16" letter-spacing="4">PROFILE // LIVE SYSTEM</text>
+  <text x="416" y="166" fill="#EEF6EF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="60">YACIN BEN KACEM</text>
+  <text x="416" y="214" fill="#D9FFB8" font-family="'Segoe UI', Arial, sans-serif" font-size="24">Applied CS Student @ ENISo | AI Product Engineer</text>
+  <text x="416" y="252" fill="#A6B6A9" font-family="'Segoe UI', Arial, sans-serif" font-size="20">Systems-minded builds around secure backends, retrieval, OCR,</text>
+  <text x="416" y="282" fill="#A6B6A9" font-family="'Segoe UI', Arial, sans-serif" font-size="20">computer vision, and smart agentic integrations</text>
+  <rect x="416" y="316" width="166" height="34" rx="17" fill="#0F150F" stroke="#8FFF52" stroke-opacity="0.3"/>
+  <rect x="596" y="316" width="168" height="34" rx="17" fill="#0F150F" stroke="#8FFF52" stroke-opacity="0.3"/>
+  <rect x="778" y="316" width="204" height="34" rx="17" fill="#0F150F" stroke="#8FFF52" stroke-opacity="0.3"/>
+  <text x="499" y="338" text-anchor="middle" fill="#D9FFB8" font-family="'Courier New', monospace" font-size="14">MONASTIR</text>
+  <text x="680" y="338" text-anchor="middle" fill="#D9FFB8" font-family="'Courier New', monospace" font-size="14">ENISO</text>
+  <text x="880" y="338" text-anchor="middle" fill="#D9FFB8" font-family="'Courier New', monospace" font-size="14">AGENTIC SYSTEMS</text>
+
+  <g class="dockPulse">
+    <rect x="1016" y="92" width="334" height="238" rx="22" fill="#0B100D" stroke="#8FFF52" stroke-opacity="0.22"/>
+  </g>
+  <text x="1052" y="130" fill="#8FFF52" font-family="'Courier New', monospace" font-size="14" letter-spacing="2.8">RUNTIME</text>
+  <text x="1052" y="169" fill="#7D8B7E" font-family="'Courier New', monospace" font-size="18">base</text>
+  <text x="1166" y="169" fill="#EEF6EF" font-family="'Courier New', monospace" font-size="18">Monastir, Tunisia</text>
+  <text x="1052" y="204" fill="#7D8B7E" font-family="'Courier New', monospace" font-size="18">mode</text>
+  <text x="1166" y="204" fill="#EEF6EF" font-family="'Courier New', monospace" font-size="18">systems-first engineering</text>
+  <text x="1052" y="239" fill="#7D8B7E" font-family="'Courier New', monospace" font-size="18">focus</text>
+  <text x="1166" y="239" fill="#EEF6EF" font-family="'Courier New', monospace" font-size="18">AI + retrieval + vision</text>
+  <text x="1052" y="274" fill="#7D8B7E" font-family="'Courier New', monospace" font-size="18">status</text>
+  <text x="1166" y="274" fill="#EEF6EF" font-family="'Courier New', monospace" font-size="18">building, learning, shipping</text>
+  <text x="1344" y="274" fill="#8FFF52" font-family="'Courier New', monospace" font-size="18" class="dockBlink">_</text>
+</svg>
