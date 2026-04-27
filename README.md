@@ -1,18 +1,17 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img src="./readme-assets/ybk-monogram.svg" width="128" alt="YBK monogram" />
+  <img src="./readme-assets/ybk-monogram.svg" width="132" alt="YBK operator crest" />
 </p>
 
 <p align="center">
-  <img src="./readme-assets/hero-panel.svg" width="100%" alt="YBK hero panel" />
+  <img src="./readme-assets/hero-panel.svg" width="100%" alt="YBK profile hero panel" />
 </p>
 
+<h3 align="center">AI systems with real architecture</h3>
+
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=20&duration=3200&pause=1300&color=8FFF52&center=true&vCenter=true&width=720&lines=AI+systems+with+real+architecture.;Secure+platforms+%E2%80%A2+retrieval+%E2%80%A2+computer+vision.;Built+from+Monastir%2C+Tunisia."
-    alt="Typing intro"
-  />
+  Secure backends, retrieval, OCR, computer vision, and agentic workflows built with structure, clarity, and production-minded engineering.
 </p>
 
 <p align="center">
@@ -28,6 +27,9 @@
   <a href="mailto:yacinbenkacem19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-050705?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=11160F" alt="Email badge" />
   </a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=YACINBK&style=for-the-badge&color=8FFF52&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 

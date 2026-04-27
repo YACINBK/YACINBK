@@ -1,45 +1,63 @@
-<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="monoBg" x1="28" y1="22" x2="192" y2="198" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070A08"/>
-      <stop offset="1" stop-color="#0B100D"/>
+    <linearGradient id="crestBg" x1="36" y1="28" x2="204" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071009"/>
+      <stop offset="0.58" stop-color="#0A140D"/>
+      <stop offset="1" stop-color="#060806"/>
     </linearGradient>
-    <linearGradient id="monoLine" x1="76" y1="54" x2="154" y2="156" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E8FCE0"/>
+    <linearGradient id="crestStroke" x1="74" y1="68" x2="188" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FFE2"/>
       <stop offset="0.56" stop-color="#8FFF52"/>
-      <stop offset="1" stop-color="#D8F9BF"/>
+      <stop offset="1" stop-color="#B8FF8E"/>
     </linearGradient>
-    <radialGradient id="monoGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(154 64) rotate(138) scale(110 92)">
+    <radialGradient id="crestGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 74) rotate(136) scale(120 110)">
       <stop stop-color="#8FFF52" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#8FFF52" stop-opacity="0"/>
     </radialGradient>
+    <filter id="crestBlur" x="0" y="0" width="240" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
     <style>
-      .monoShine { animation: monoShine 6.8s linear infinite; }
-      @keyframes monoShine {
+      .crestSweep { animation: crestSweep 6.2s linear infinite; }
+      .crestPulse { animation: crestPulse 3.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes crestSweep {
         0% { transform: translateX(-120px); opacity: 0; }
-        12% { opacity: 0.18; }
-        88% { opacity: 0.18; }
-        100% { transform: translateX(220px); opacity: 0; }
+        14% { opacity: 0.22; }
+        86% { opacity: 0.22; }
+        100% { transform: translateX(240px); opacity: 0; }
+      }
+      @keyframes crestPulse {
+        0%, 100% { opacity: 0.55; transform: scale(0.99); }
+        50% { opacity: 0.92; transform: scale(1.01); }
       }
     </style>
   </defs>
 
-  <rect x="16" y="16" width="188" height="188" rx="28" fill="url(#monoBg)"/>
-  <rect x="16" y="16" width="188" height="188" rx="28" fill="url(#monoGlow)"/>
-  <rect x="17.5" y="17.5" width="185" height="185" rx="26.5" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="3"/>
+  <rect x="18" y="18" width="204" height="204" rx="30" fill="#050705"/>
+  <rect x="18" y="18" width="204" height="204" rx="30" fill="url(#crestGlow)"/>
+  <rect x="19.5" y="19.5" width="201" height="201" rx="28.5" stroke="#8FFF52" stroke-opacity="0.18" stroke-width="3"/>
 
-  <path d="M110 40L156.765 67V121L110 148L63.2346 121V67L110 40Z" stroke="#8FFF52" stroke-opacity="0.78" stroke-width="3"/>
+  <g class="crestPulse" filter="url(#crestBlur)">
+    <path d="M120 34L188 68V172L120 206L52 172V68L120 34Z" stroke="#8FFF52" stroke-opacity="0.26" stroke-width="10"/>
+  </g>
 
-  <path d="M76 71L94.5 91.5L111 71" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M94.5 91.5V144" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M120 40L182 72V168L120 200L58 168V72L120 40Z" fill="url(#crestBg)" stroke="url(#crestStroke)" stroke-width="3.4"/>
+  <path d="M54 84H92" stroke="#8FFF52" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M148 84H186" stroke="#8FFF52" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M54 156H92" stroke="#8FFF52" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M148 156H186" stroke="#8FFF52" stroke-opacity="0.12" stroke-width="2"/>
 
-  <path d="M110 71V144" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round"/>
-  <path d="M110 71H127.5C139 71 146.5 78.5 146.5 88C146.5 97.5 139.5 104 128 104H110" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M110 104H130.5C143.5 104 152 112 152 123.5C152 135 143.5 144 129.5 144H110" stroke="url(#monoLine)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 86L102 108L124 86" stroke="#F3FFE2" stroke-width="8.5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M102 108V160" stroke="#F3FFE2" stroke-width="8.5" stroke-linecap="square"/>
 
-  <path d="M152 71V144" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
-  <path d="M152 107L176.5 71" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
-  <path d="M152 107L177 144" stroke="#EEF6EF" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M126 78V164" stroke="#8FFF52" stroke-width="8.5" stroke-linecap="square"/>
+  <path d="M126 78H151C163 78 171 86 171 96C171 106 163 114 151 114H126" stroke="#8FFF52" stroke-width="8.5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M126 114H155C168 114 177 123 177 136C177 150 167 164 152 164H126" stroke="#8FFF52" stroke-width="8.5" stroke-linecap="square" stroke-linejoin="miter"/>
 
-  <rect class="monoShine" x="-120" y="34" width="68" height="152" rx="20" fill="url(#monoGlow)"/>
+  <path d="M168 78V164" stroke="#EEF6EF" stroke-width="8.5" stroke-linecap="square"/>
+  <path d="M168 122L195 88" stroke="#EEF6EF" stroke-width="8.5" stroke-linecap="square"/>
+  <path d="M168 122L197 164" stroke="#EEF6EF" stroke-width="8.5" stroke-linecap="square"/>
+
+  <rect x="178" y="170" width="14" height="14" fill="#8FFF52" fill-opacity="0.16" stroke="#8FFF52" stroke-opacity="0.48" stroke-width="2"/>
+  <rect class="crestSweep" x="-120" y="28" width="72" height="184" rx="18" fill="url(#crestGlow)"/>
 </svg>
