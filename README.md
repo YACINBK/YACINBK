@@ -1,17 +1,17 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img src="./readme-assets/vision-core-mark.svg" width="136" alt="Animated computer vision crest" />
+  <img src="./readme-assets/system-pulse-mark.svg" width="136" alt="Animated systems mark" />
 </p>
 
 <p align="center">
-  <img src="./readme-assets/hero-control-panel.svg" width="100%" alt="Computer vision control panel hero" />
+  <img src="./readme-assets/hero-runtime-panel.svg" width="100%" alt="Systems and automation hero panel" />
 </p>
 
-<h2 align="center">Computer vision systems with real architecture</h2>
+<h2 align="center">Automation pipelines and AI systems with real architecture</h2>
 
 <p align="center">
-  Computer vision products built with clear interfaces, sharp feedback loops, and production-minded engineering.
+  Product-oriented systems built around automation, strong system design, and reliable delivery under real constraints.
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="./readme-assets/about-bar.svg" width="100%" alt="About section banner" />
+  <img src="./readme-assets/about-control-bar.svg" width="100%" alt="About section banner" />
 </p>
 
 ```bash
@@ -48,20 +48,20 @@ Applied Computer Science Engineering @ ENISo - National School Of Engineering Of
 Monastir, Tunisia
 
 > current_focus
-Computer vision systems, secure AI tooling, and agentic integrations
+Automation pipelines, system design, and shipping under real constraints
 ```
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: backend architecture, validation, computer vision, and outputs that are actually useful to people.
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: automation, backend architecture, validation, delivery, and computer vision when it serves the product.
 
 What matters most to me is clarity. I like taking messy inputs and turning them into structured systems that feel deliberate, reliable, and clean to use. That is why I keep coming back to secure backend flows, multi-service AI architecture, UX analysis, and automation that can survive beyond a demo.
 
-- Building complete systems, not isolated prompts
-- Designing interfaces that feel sharp, readable, and intentional
-- Taking security seriously from the start
-- Turning screenshots, documents, and noisy inputs into structured outputs
+- Building product systems, not isolated prompts
+- Designing automation and delivery flows around real constraints
+- Treating hardware, performance, and integration limits as design inputs
+- Using computer vision, retrieval, or agents where they improve the product
 
 <p align="center">
-  <img src="./readme-assets/stack-bar.svg" width="100%" alt="Stack section banner" />
+  <img src="./readme-assets/stack-control-bar.svg" width="100%" alt="Stack section banner" />
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 </p>
 
 <p align="center">
-  <img src="./readme-assets/activity-bar.svg" width="100%" alt="Activity section banner" />
+  <img src="./readme-assets/activity-control-bar.svg" width="100%" alt="Activity section banner" />
 </p>
 
 <p align="center">
@@ -130,7 +130,7 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 </p>
 
 <p align="center">
-  <img src="./readme-assets/learning-bar.svg" width="100%" alt="Learning section banner" />
+  <img src="./readme-assets/learning-control-bar.svg" width="100%" alt="Learning section banner" />
 </p>
 
 - Applied Computer Science Engineering student at **ENISo**
@@ -140,7 +140,7 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 - Open to internships and technical collaborations involving AI systems, backend engineering, intelligent tooling, or automation
 
 <p align="center">
-  <img src="./readme-assets/connect-bar.svg" width="100%" alt="Connect section banner" />
+  <img src="./readme-assets/connect-control-bar.svg" width="100%" alt="Connect section banner" />
 </p>
 
 <p align="center">

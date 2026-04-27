@@ -1,0 +1,132 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04070B"/>
+      <stop offset="0.48" stop-color="#08121B"/>
+      <stop offset="1" stop-color="#04070A"/>
+    </linearGradient>
+    <pattern id="heroDots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.1" cy="1.1" r="0.7" fill="#8FD4FF" fill-opacity="0.1"/>
+    </pattern>
+    <pattern id="heroGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#8BC8FF" stroke-opacity="0.08"/>
+    </pattern>
+    <radialGradient id="heroLeftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246 182) rotate(90) scale(136 136)">
+      <stop stop-color="#00D8FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#00D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heroRightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1200 62) rotate(132) scale(260 180)">
+      <stop stop-color="#C5FF00" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#C5FF00" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .heroSweep {
+        animation: heroSweep 8s linear infinite;
+      }
+      .heroHalo {
+        animation: heroHalo 4.8s ease-in-out infinite;
+        transform-origin: 246px 182px;
+      }
+      .heroSweepArc {
+        animation: heroSweepArc 11s linear infinite;
+        transform-origin: 246px 182px;
+      }
+      .heroCore {
+        animation: heroCore 4.8s ease-in-out infinite;
+        transform-origin: 246px 182px;
+      }
+      .metricPulse {
+        animation: metricPulse 2.4s ease-in-out infinite;
+      }
+      @keyframes heroSweep {
+        0% { transform: translateX(-280px); opacity: 0; }
+        14% { opacity: 0.18; }
+        86% { opacity: 0.18; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+      @keyframes heroHalo {
+        0%, 100% { opacity: 0.58; transform: scale(0.985); }
+        50% { opacity: 1; transform: scale(1.02); }
+      }
+      @keyframes heroSweepArc {
+        0% { transform: rotate(0deg); opacity: 0.28; }
+        50% { opacity: 0.72; }
+        100% { transform: rotate(360deg); opacity: 0.28; }
+      }
+      @keyframes heroCore {
+        0%, 100% { transform: scale(0.99); }
+        50% { transform: scale(1.03); }
+      }
+      @keyframes metricPulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1400" height="360" rx="28" fill="url(#heroBg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#heroDots)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#heroGrid)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#heroRightGlow)"/>
+  <rect x="2" y="2" width="1396" height="356" rx="26" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
+  <rect class="heroSweep" x="-280" y="40" width="280" height="280" rx="24" fill="url(#heroRightGlow)"/>
+
+  <rect x="34" y="34" width="430" height="292" rx="26" fill="#050B10" stroke="#7FCBFF" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="498" y="34" width="868" height="292" rx="26" fill="#050A0E" stroke="#8BC8FF" stroke-opacity="0.18" stroke-width="2"/>
+
+  <rect x="54" y="54" width="390" height="252" rx="20" fill="url(#heroLeftGlow)"/>
+  <g class="heroHalo">
+    <circle cx="246" cy="182" r="114" stroke="#F2FBFF" stroke-opacity="0.16" stroke-width="2"/>
+    <circle cx="246" cy="182" r="92" stroke="#F2FBFF" stroke-opacity="0.72" stroke-width="4"/>
+    <circle cx="246" cy="182" r="74" stroke="#00D8FF" stroke-opacity="0.48" stroke-width="3"/>
+    <circle cx="246" cy="182" r="56" stroke="#00D8FF" stroke-opacity="0.3" stroke-width="2"/>
+  </g>
+  <circle cx="246" cy="182" r="132" stroke="#00D8FF" stroke-opacity="0.24" stroke-width="3" stroke-dasharray="3 9"/>
+  <g class="heroSweepArc">
+    <path d="M246 68A114 114 0 0 1 333 108" stroke="#C5FF00" stroke-width="8" stroke-linecap="round"/>
+    <path d="M333 252A114 114 0 0 1 252 296" stroke="#00D8FF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M132 182H180" stroke="#00D8FF" stroke-opacity="0.64" stroke-width="3"/>
+  <path d="M312 182H360" stroke="#00D8FF" stroke-opacity="0.64" stroke-width="3"/>
+  <path d="M246 68V116" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
+  <path d="M246 248V296" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
+
+  <g class="heroCore">
+    <path d="M246 108L294 136V194L246 222L198 194V136L246 108Z" stroke="#EAFBFF" stroke-width="3"/>
+    <rect x="228" y="164" width="36" height="36" stroke="#00D8FF" stroke-width="3"/>
+    <circle cx="246" cy="128" r="7" fill="#C5FF00"/>
+    <circle cx="286" cy="151" r="7" fill="#00D8FF"/>
+    <circle cx="286" cy="193" r="7" fill="#C5FF00"/>
+    <circle cx="246" cy="216" r="7" fill="#00D8FF"/>
+    <circle cx="206" cy="193" r="7" fill="#C5FF00"/>
+    <circle cx="206" cy="151" r="7" fill="#00D8FF"/>
+    <path d="M246 135V164" stroke="#EAFBFF" stroke-width="3"/>
+    <path d="M279 156L264 166" stroke="#EAFBFF" stroke-width="3"/>
+    <path d="M279 188L264 178" stroke="#EAFBFF" stroke-width="3"/>
+    <path d="M246 209V200" stroke="#EAFBFF" stroke-width="3"/>
+    <path d="M213 188L228 178" stroke="#EAFBFF" stroke-width="3"/>
+    <path d="M213 156L228 166" stroke="#EAFBFF" stroke-width="3"/>
+  </g>
+
+  <rect x="70" y="268" width="128" height="28" fill="#071521" stroke="#00D8FF" stroke-opacity="0.34"/>
+  <rect x="214" y="268" width="136" height="28" fill="#0A110B" stroke="#C5FF00" stroke-opacity="0.34"/>
+  <rect x="366" y="268" width="168" height="28" fill="#071521" stroke="#00D8FF" stroke-opacity="0.34"/>
+  <text x="84" y="288" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18">Monastir</text>
+  <text x="228" y="288" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18">Automation</text>
+  <text x="378" y="288" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18">System Design</text>
+
+  <path d="M528 72H618" stroke="#C5FF00" stroke-opacity="0.74" stroke-width="3"/>
+  <text x="528" y="92" fill="#C5FF00" font-family="'Courier New', monospace" font-size="18" letter-spacing="3">LIVE SYSTEM</text>
+  <text x="528" y="138" fill="#F6FBFF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="68" letter-spacing="-1.6">YACIN BEN KACEM</text>
+  <text x="528" y="184" fill="#EAFBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="30">Applied CS Student @ ENISo // AI Product Engineer</text>
+  <text x="528" y="226" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">Automation pipelines, agentic tooling, and product systems designed</text>
+  <text x="528" y="256" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">to ship cleanly under hardware, performance, and delivery constraints.</text>
+  <text x="528" y="286" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">Computer vision is part of the work when the product actually needs it.</text>
+
+  <rect x="528" y="312" width="148" height="26" fill="#071521" stroke="#00D8FF" stroke-opacity="0.36"/>
+  <rect x="692" y="312" width="158" height="26" fill="#0A110B" stroke="#C5FF00" stroke-opacity="0.36"/>
+  <rect x="866" y="312" width="170" height="26" fill="#071521" stroke="#00D8FF" stroke-opacity="0.36"/>
+  <text x="542" y="330" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Automation</text>
+  <text x="706" y="330" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">Delivery</text>
+  <text x="880" y="330" fill="#EAFBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="16">System Design</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="1400" height="124" viewBox="0 0 1400 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barBg" x1="0" y1="0" x2="1400" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04070B"/>
+      <stop offset="0.52" stop-color="#08111A"/>
+      <stop offset="1" stop-color="#04070A"/>
+    </linearGradient>
+    <pattern id="barDots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.1" cy="1.1" r="0.7" fill="#8FD4FF" fill-opacity="0.1"/>
+    </pattern>
+    <style>
+      .scan { animation: scan 7.2s linear infinite; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      @keyframes scan {
+        0% { transform: translateX(-240px); opacity: 0; }
+        16% { opacity: 0.4; }
+        84% { opacity: 0.4; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.65; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="1400" height="124" rx="22" fill="url(#barBg)"/>
+  <rect width="1400" height="124" rx="22" fill="url(#barDots)"/>
+  <rect x="2" y="2" width="1396" height="120" rx="20" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
+  <path d="M46 34H126" stroke="#00D8FF" stroke-opacity="0.76" stroke-width="3"/>
+  <text x="48" y="62" fill="#F5FBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="36">Stack</text>
+  <text x="48" y="96" fill="#CFE6F4" font-family="'Segoe UI', Arial, sans-serif" font-size="20">Languages, frameworks, and delivery tools I actually ship with.</text>
+  <circle cx="1320" cy="40" r="7" fill="#00D8FF" class="pulse"/>
+  <rect class="scan" x="-240" y="108" width="240" height="4" rx="2" fill="#C5FF00"/>
+</svg>
