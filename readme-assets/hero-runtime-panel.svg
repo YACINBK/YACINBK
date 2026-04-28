@@ -1,119 +1,152 @@
-<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" width="1200" height="320">
   <defs>
-    <linearGradient id="heroBg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#04070B"/>
-      <stop offset="0.48" stop-color="#08121B"/>
-      <stop offset="1" stop-color="#04070A"/>
-    </linearGradient>
-    <pattern id="heroDots" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="1.1" cy="1.1" r="0.7" fill="#8FD4FF" fill-opacity="0.1"/>
-    </pattern>
-    <pattern id="heroGrid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" stroke="#8BC8FF" stroke-opacity="0.08"/>
-    </pattern>
-    <radialGradient id="heroLeftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246 182) rotate(90) scale(136 136)">
-      <stop stop-color="#00D8FF" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#00D8FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="heroRightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1200 62) rotate(132) scale(260 180)">
-      <stop stop-color="#C5FF00" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#C5FF00" stop-opacity="0"/>
-    </radialGradient>
     <style>
-      .heroSweep {
-        animation: heroSweep 8s linear infinite;
-      }
-      .heroHalo {
-        animation: heroHalo 4.8s ease-in-out infinite;
-        transform-origin: 246px 182px;
-      }
-      .heroSweepArc {
-        animation: heroSweepArc 11s linear infinite;
-        transform-origin: 246px 182px;
-      }
-      .heroCore {
-        animation: heroCore 4.8s ease-in-out infinite;
-        transform-origin: 246px 182px;
-      }
-      .metricPulse {
-        animation: metricPulse 2.4s ease-in-out infinite;
-      }
-      @keyframes heroSweep {
-        0% { transform: translateX(-280px); opacity: 0; }
-        14% { opacity: 0.18; }
-        86% { opacity: 0.18; }
-        100% { transform: translateX(1400px); opacity: 0; }
-      }
-      @keyframes heroHalo {
-        0%, 100% { opacity: 0.58; transform: scale(0.985); }
-        50% { opacity: 1; transform: scale(1.02); }
-      }
-      @keyframes heroSweepArc {
-        0% { transform: rotate(0deg); opacity: 0.28; }
-        50% { opacity: 0.72; }
-        100% { transform: rotate(360deg); opacity: 0.28; }
-      }
-      @keyframes heroCore {
-        0%, 100% { transform: scale(0.99); }
-        50% { transform: scale(1.03); }
-      }
-      @keyframes metricPulse {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; }
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@700;900&amp;display=swap');
+      .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+      .orb  { font-family: 'Orbitron', 'Courier New', monospace; font-weight: 900; }
+      .orb2 { font-family: 'Orbitron', 'Courier New', monospace; font-weight: 700; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      @keyframes scan  { 0%{transform:translateY(-320px)} 100%{transform:translateY(320px)} }
+      @keyframes pulse { 0%,100%{opacity:0.15} 50%{opacity:0.45} }
+      @keyframes glow  { 0%,100%{filter:drop-shadow(0 0 6px #8FFF52)} 50%{filter:drop-shadow(0 0 18px #8FFF52)} }
+      @keyframes flicker { 0%,95%,100%{opacity:1} 96%{opacity:0.7} 98%{opacity:0.85} }
     </style>
+
+    <!-- Background grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#132015" stroke-width="0.8"/>
+    </pattern>
+
+    <!-- Corner bracket clip -->
+    <clipPath id="panel-clip">
+      <polygon points="32,0 1200,0 1200,320 0,320 0,32"/>
+    </clipPath>
+
+    <!-- Glow filter -->
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect width="1400" height="360" rx="28" fill="url(#heroBg)"/>
-  <rect width="1400" height="360" rx="28" fill="url(#heroDots)"/>
-  <rect width="1400" height="360" rx="28" fill="url(#heroGrid)"/>
-  <rect width="1400" height="360" rx="28" fill="url(#heroRightGlow)"/>
-  <rect x="2" y="2" width="1396" height="356" rx="26" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
-  <rect class="heroSweep" x="-280" y="40" width="280" height="280" rx="24" fill="url(#heroRightGlow)"/>
+  <!-- BG -->
+  <rect width="1200" height="320" fill="#050705"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
 
-  <rect x="34" y="34" width="430" height="292" rx="26" fill="#050B10" stroke="#7FCBFF" stroke-opacity="0.18" stroke-width="2"/>
-  <rect x="498" y="34" width="868" height="292" rx="26" fill="#050A0E" stroke="#8BC8FF" stroke-opacity="0.18" stroke-width="2"/>
+  <!-- Scan line animation -->
+  <rect width="1200" height="3" fill="#8FFF52" opacity="0.07">
+    <animateTransform attributeName="transform" type="translate" from="0,-320" to="0,640" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <rect x="54" y="54" width="390" height="252" rx="20" fill="url(#heroLeftGlow)"/>
-  <g class="heroHalo">
-    <circle cx="246" cy="182" r="114" stroke="#F2FBFF" stroke-opacity="0.16" stroke-width="2"/>
-    <circle cx="246" cy="182" r="92" stroke="#F2FBFF" stroke-opacity="0.72" stroke-width="4"/>
-    <circle cx="246" cy="182" r="74" stroke="#00D8FF" stroke-opacity="0.48" stroke-width="3"/>
-    <circle cx="246" cy="182" r="56" stroke="#00D8FF" stroke-opacity="0.3" stroke-width="2"/>
-  </g>
-  <circle cx="246" cy="182" r="132" stroke="#00D8FF" stroke-opacity="0.24" stroke-width="3" stroke-dasharray="3 9"/>
-  <g class="heroSweepArc">
-    <path d="M246 68A114 114 0 0 1 333 108" stroke="#C5FF00" stroke-width="8" stroke-linecap="round"/>
-    <path d="M333 252A114 114 0 0 1 252 296" stroke="#00D8FF" stroke-width="8" stroke-linecap="round"/>
-  </g>
-  <path d="M132 182H180" stroke="#00D8FF" stroke-opacity="0.64" stroke-width="3"/>
-  <path d="M312 182H360" stroke="#00D8FF" stroke-opacity="0.64" stroke-width="3"/>
-  <path d="M246 68V116" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
-  <path d="M246 248V296" stroke="#00D8FF" stroke-opacity="0.4" stroke-width="3"/>
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="320" fill="#8FFF52" opacity="0.9"/>
 
-  <g class="heroCore">
-    <path d="M246 108L294 136V194L246 222L198 194V136L246 108Z" stroke="#EAFBFF" stroke-width="3"/>
-    <rect x="228" y="164" width="36" height="36" stroke="#00D8FF" stroke-width="3"/>
-    <circle cx="246" cy="128" r="7" fill="#C5FF00"/>
-    <circle cx="286" cy="151" r="7" fill="#00D8FF"/>
-    <circle cx="286" cy="193" r="7" fill="#C5FF00"/>
-    <circle cx="246" cy="216" r="7" fill="#00D8FF"/>
-    <circle cx="206" cy="193" r="7" fill="#C5FF00"/>
-    <circle cx="206" cy="151" r="7" fill="#00D8FF"/>
-    <path d="M246 135V164" stroke="#EAFBFF" stroke-width="3"/>
-    <path d="M279 156L264 166" stroke="#EAFBFF" stroke-width="3"/>
-    <path d="M279 188L264 178" stroke="#EAFBFF" stroke-width="3"/>
-    <path d="M246 209V200" stroke="#EAFBFF" stroke-width="3"/>
-    <path d="M213 188L228 178" stroke="#EAFBFF" stroke-width="3"/>
-    <path d="M213 156L228 166" stroke="#EAFBFF" stroke-width="3"/>
-  </g>
+  <!-- Top-left corner bracket -->
+  <polyline points="4,60 4,4 64,4" fill="none" stroke="#8FFF52" stroke-width="2"/>
 
+  <!-- Bottom-right corner bracket -->
+  <polyline points="1136,316 1196,316 1196,256" fill="none" stroke="#8FFF52" stroke-width="2"/>
 
+  <!-- Top-right corner bracket -->
+  <polyline points="1136,4 1196,4 1196,64" fill="none" stroke="#253128" stroke-width="1.5"/>
 
-  <text x="528" y="138" fill="#F6FBFF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="68" letter-spacing="-1.6">YACIN BEN KACEM</text>
-  <text x="528" y="184" fill="#EAFBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="30">Applied CS Student @ ENISo</text>
-  <text x="528" y="226" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">Automation pipelines, agentic tooling, and product systems designed</text>
-  <text x="528" y="256" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">to ship cleanly under hardware, performance, and delivery constraints.</text>
+  <!-- Bottom-left corner bracket -->
+  <polyline points="64,316 4,316 4,260" fill="none" stroke="#253128" stroke-width="1.5"/>
 
+  <!-- Vertical separator line -->
+  <line x1="520" y1="24" x2="520" y2="296" stroke="#132015" stroke-width="1"/>
 
+  <!-- ══ LEFT SIDE — Logo + Name ══ -->
+
+  <!-- Hexagon logo mark -->
+  <polygon points="120,60 154,40 188,60 188,100 154,120 120,100"
+    fill="none" stroke="#8FFF52" stroke-width="2.5" filter="url(#glow-green)">
+    <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/>
+  </polygon>
+  <!-- Inner hex -->
+  <polygon points="128,66 154,51 180,66 180,94 154,109 128,94"
+    fill="#0B1A0D" stroke="#253128" stroke-width="1"/>
+  <!-- Y letter inside hex -->
+  <text x="154" y="90" text-anchor="middle" class="orb" font-size="28" fill="#8FFF52" filter="url(#glow-green)">Y</text>
+
+  <!-- Name -->
+  <text x="210" y="72" class="orb" font-size="22" fill="#8FFF52" letter-spacing="3" filter="url(#glow-green)">
+    YACIN
+  </text>
+  <text x="210" y="100" class="orb" font-size="22" fill="#EEF6EF" letter-spacing="3">
+    BEN KACEM
+  </text>
+
+  <!-- Thin decorative underline -->
+  <line x1="120" y1="132" x2="490" y2="132" stroke="#8FFF52" stroke-width="1" opacity="0.4"/>
+
+  <!-- Role tags -->
+  <rect x="120" y="144" width="138" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="160" class="mono" font-size="11" fill="#8FFF52">AI SYSTEMS ENGINEER</text>
+
+  <rect x="266" y="144" width="128" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="278" y="160" class="mono" font-size="11" fill="#D9FFB8">AUTOMATION BUILDER</text>
+
+  <rect x="120" y="174" width="114" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="190" class="mono" font-size="11" fill="#D9FFB8">FULLSTACK ENGINEER</text>
+
+  <rect x="242" y="174" width="104" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="254" y="190" class="mono" font-size="11" fill="#8CA08A">ML COMPETITOR</text>
+
+  <!-- ENISo badge -->
+  <rect x="120" y="210" width="240" height="28" rx="4" fill="#0B1A0D" stroke="#8FFF52" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="132" y="229" class="mono" font-size="12" fill="#8FFF52">▸ ENISo</text>
+  <text x="176" y="229" class="mono" font-size="12" fill="#8CA08A">Sousse · Applied CS Engineering</text>
+
+  <!-- Zindi badge -->
+  <rect x="120" y="246" width="180" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="262" class="mono" font-size="11" fill="#8CA08A">ZINDI · 31st/69 IndabaX Tunisia</text>
+
+  <!-- Blinking cursor -->
+  <rect x="120" y="278" width="8" height="16" fill="#8FFF52" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="134" y="291" class="mono" font-size="12" fill="#253128">SYSTEM ONLINE</text>
+
+  <!-- ══ RIGHT SIDE — Terminal block ══ -->
+
+  <!-- Terminal window chrome -->
+  <rect x="540" y="24" width="640" height="272" rx="6" fill="#060E07" stroke="#132015"/>
+  <!-- Traffic lights -->
+  <circle cx="564" cy="46" r="6" fill="#FF5F57"/>
+  <circle cx="582" cy="46" r="6" fill="#FFBD2E"/>
+  <circle cx="600" cy="46" r="6" fill="#28C840"/>
+  <text x="624" y="51" class="mono" font-size="11" fill="#253128">yacin@runtime-engine ~ </text>
+  <line x1="540" y1="60" x2="1180" y2="60" stroke="#132015" stroke-width="1"/>
+
+  <!-- Terminal lines -->
+  <text x="560" y="88"  class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="88"  class="mono" font-size="13" fill="#D9FFB8"> whoami</text>
+  <text x="560" y="108" class="mono" font-size="13" fill="#8CA08A">  Yacin Ben Kacem — Applied CS Engineering @ ENISo</text>
+
+  <text x="560" y="132" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="132" class="mono" font-size="13" fill="#D9FFB8"> cat current_focus.txt</text>
+  <text x="560" y="152" class="mono" font-size="13" fill="#8CA08A">  AI systems · automation pipelines · system design</text>
+  <text x="560" y="169" class="mono" font-size="13" fill="#8CA08A">  shipping under real constraints</text>
+
+  <text x="560" y="193" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="193" class="mono" font-size="13" fill="#D9FFB8"> ls ./philosophy</text>
+  <text x="560" y="213" class="mono" font-size="13" fill="#8CA08A">  design_first.md &nbsp; fallbacks_always.md</text>
+  <text x="560" y="230" class="mono" font-size="13" fill="#8CA08A">  cache_smartly.md &nbsp; secure_by_default.md</text>
+
+  <text x="560" y="254" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="254" class="mono" font-size="13" fill="#D9FFB8"> ping open_to_work</text>
+  <text x="560" y="274" class="mono" font-size="13" fill="#28C840">  ✔ RESPONDING — internships &amp; collaborations</text>
+
+  <!-- Blinking cursor in terminal -->
+  <rect x="560" y="284" width="8" height="14" fill="#8FFF52">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right accent bar -->
+  <rect x="1196" y="0" width="4" height="320" fill="#253128" opacity="0.6"/>
 </svg>
