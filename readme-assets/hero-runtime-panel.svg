@@ -110,11 +110,8 @@
 
 
 
-
-  <path d="M528 72H618" stroke="#C5FF00" stroke-opacity="0.74" stroke-width="3"/>
-  <text x="528" y="92" fill="#C5FF00" font-family="'Courier New', monospace" font-size="18" letter-spacing="3">LIVE SYSTEM</text>
   <text x="528" y="138" fill="#F6FBFF" font-family="'Arial Black', 'Segoe UI', sans-serif" font-size="68" letter-spacing="-1.6">YACIN BEN KACEM</text>
-  <text x="528" y="184" fill="#EAFBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="30">Applied CS Student @ ENISo-National School Of Engineering Of Sousse</text>
+  <text x="528" y="184" fill="#EAFBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="30">Applied CS Student @ ENISo</text>
   <text x="528" y="226" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">Automation pipelines, agentic tooling, and product systems designed</text>
   <text x="528" y="256" fill="#D7E8F3" font-family="'Segoe UI', Arial, sans-serif" font-size="22">to ship cleanly under hardware, performance, and delivery constraints.</text>
 

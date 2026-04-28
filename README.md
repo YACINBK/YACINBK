@@ -1,17 +1,13 @@
 <!-- Profile README draft for github.com/YACINBK -->
 
 <p align="center">
-  <img src="./readme-assets/system-pulse-mark.svg" width="136" alt="Animated systems mark" />
-</p>
-
-<p align="center">
   <img src="./readme-assets/hero-runtime-panel.svg" width="100%" alt="Systems and automation hero panel" />
 </p>
 
-<h2 align="center">Automation pipelines and AI systems with real architecture</h2>
+<h2 align="center">Automation pipelines and optimized solutions with real architecture</h2>
 
 <p align="center">
-  Product-oriented systems built around automation, strong system design, and reliable delivery under real constraints.
+  Product-oriented systems built around robust automation, strong system design, and secure delivery under real constraints.
 </p>
 
 <p align="center">
@@ -51,14 +47,13 @@ Monastir, Tunisia
 Automation pipelines, system design, and shipping under real constraints
 ```
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: automation, backend architecture, validation, delivery, and computer vision when it serves the product.
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: automation, backend architecture, validation and delivery.
 
 What matters most to me is clarity. I like taking messy inputs and turning them into structured systems that feel deliberate, reliable, and clean to use. That is why I keep coming back to secure backend flows, multi-service AI architecture, UX analysis, and automation that can survive beyond a demo.
 
 - Building product systems, not isolated prompts
 - Designing automation and delivery flows around real constraints
 - Treating hardware, performance, and integration limits as design inputs
-- Using computer vision, retrieval, or agents where they improve the product
 
 <p align="center">
   <img src="./readme-assets/stack-control-bar.svg" width="100%" alt="Stack section banner" />
