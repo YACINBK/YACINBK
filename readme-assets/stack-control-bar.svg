@@ -1,6 +1,6 @@
 <svg width="1400" height="124" viewBox="0 0 1400 124" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="barBg" x1="0" y1="0" x2="1400" y2="124" gradientUnits="userSpaceOnUse">
+    <linearGradient id="stackBg" x1="0" y1="0" x2="1400" y2="124" gradientUnits="userSpaceOnUse">
       <stop stop-color="#04070B"/>
       <stop offset="0.52" stop-color="#08111A"/>
       <stop offset="1" stop-color="#04070A"/>
@@ -23,10 +23,12 @@
       }
     </style>
   </defs>
-  <rect width="1400" height="124" rx="22" fill="url(#barBg)"/>
+  <rect width="1400" height="124" rx="22" fill="url(#stackBg)"/>
   <rect width="1400" height="124" rx="22" fill="url(#barDots)"/>
-  <text x="48" y="62" fill="#F5FBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="36">Stack</text>
-  <text x="48" y="96" fill="#CFE6F4" font-family="'Segoe UI', Arial, sans-serif" font-size="20">Languages, frameworks, and delivery tools I actually ship with.</text>
+  <rect x="2" y="2" width="1396" height="120" rx="20" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
+  <path d="M46 34H126" stroke="#00D8FF" stroke-opacity="0.76" stroke-width="3"/>
+  <text x="48" y="50" fill="#F5FBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="38">Stack</text>
+  <text x="48" y="98" fill="#CFE6F4" font-family="'Segoe UI', Arial, sans-serif" font-size="22">Languages, frameworks, and delivery tools I actually ship with.</text>
   <circle cx="1320" cy="40" r="7" fill="#00D8FF" class="pulse"/>
   <rect class="scan" x="-240" y="108" width="240" height="4" rx="2" fill="#C5FF00"/>
 </svg>

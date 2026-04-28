@@ -4,10 +4,10 @@
   <img src="./readme-assets/hero-runtime-panel.svg" width="100%" alt="Systems and automation hero panel" />
 </p>
 
-<h2 align="center">Automation pipelines and optimized solutions with real architecture</h2>
+<h2 align="center">Automation pipelines and systems that hold up</h2>
 
 <p align="center">
-  Product-oriented systems built around robust automation, strong system design, and secure delivery under real constraints.
+  Platforms built around backend orchestration, secure delivery, caching, fallback design, and clean shipping under real constraints.
 </p>
 
 <p align="center">
@@ -44,16 +44,18 @@ Applied Computer Science Engineering @ ENISo - National School Of Engineering Of
 Monastir, Tunisia
 
 > current_focus
-Automation pipelines, system design, and shipping under real constraints
+Automation pipelines, backend orchestration, system design, and shipping under real constraints
 ```
 
-I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build AI products with a strong focus on the system around the model: automation, backend architecture, validation and delivery.
+I am **Yacin Ben Kacem**, an Applied Computer Science Engineering student at **ENISo**. I build platforms with a deep focus on backend orchestration, secure delivery, caching, fallback design, and automation flows that survive outside a demo.
 
-What matters most to me is clarity. I like taking messy inputs and turning them into structured systems that feel deliberate, reliable, and clean to use. That is why I keep coming back to secure backend flows, multi-service AI architecture, UX analysis, and automation that can survive beyond a demo.
+What matters most to me is that systems hold up when things go wrong: missing API key, no GPU, 400 concurrent users, unavailable external service. I treat those as design inputs, not edge cases.
 
 - Building product systems, not isolated prompts
-- Designing automation and delivery flows around real constraints
-- Treating hardware, performance, and integration limits as design inputs
+- Designing every pipeline with explicit fallbacks from day one
+- Caching as a structural concern - if the model already answered it, the system should not ask again
+- Security by default, even in local tooling and internal pipelines
+- Treating hardware limits, performance constraints, and integration reality as part of the spec
 
 <p align="center">
   <img src="./readme-assets/stack-control-bar.svg" width="100%" alt="Stack section banner" />
@@ -129,10 +131,10 @@ What matters most to me is clarity. I like taking messy inputs and turning them 
 </p>
 
 - Applied Computer Science Engineering student at **ENISo**
-- Built independent systems around LLM workflows, backend orchestration, secure delivery, and computer vision
-- Internship experience at **Whitecape Technologies** around AI-assisted UX analysis, heuristic engines, RAG, and production-facing FastAPI delivery
-- Ongoing learning through **NVIDIA**, **DeepLearning.AI**, and hands-on system building
-- Open to internships and technical collaborations involving AI systems, backend engineering, intelligent tooling, or automation
+- Built independent systems around backend orchestration, secure delivery, and automation workflows
+- Internship experience at **Whitecape Technologies** around product analysis, heuristic engines, retrieval, and production-facing FastAPI delivery
+- Ongoing learning through **NVIDIA**, practical engineering courses, and hands-on system building
+- Open to internships and technical collaborations involving backend engineering, intelligent tooling, or automation
 
 <p align="center">
   <img src="./readme-assets/connect-control-bar.svg" width="100%" alt="Connect section banner" />
