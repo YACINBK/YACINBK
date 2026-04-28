@@ -25,8 +25,6 @@
   </defs>
   <rect width="1400" height="124" rx="22" fill="url(#barBg)"/>
   <rect width="1400" height="124" rx="22" fill="url(#barDots)"/>
-  <rect x="2" y="2" width="1396" height="120" rx="20" stroke="#8BC8FF" stroke-opacity="0.16" stroke-width="4"/>
-  <path d="M46 34H146" stroke="#C5FF00" stroke-opacity="0.72" stroke-width="3"/>
   <text x="48" y="62" fill="#F5FBFF" font-family="'Segoe UI Semibold', 'Segoe UI', Arial, sans-serif" font-size="36">Activity</text>
   <text x="48" y="96" fill="#CFE6F4" font-family="'Segoe UI', Arial, sans-serif" font-size="20">Live GitHub signals and the work trail behind the profile.</text>
   <circle cx="1320" cy="40" r="7" fill="#C5FF00" class="pulse"/>
