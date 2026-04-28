@@ -34,24 +34,14 @@
 
   <line x1="520" y1="24" x2="520" y2="296" stroke="#132015" stroke-width="1"/>
 
-  <polygon points="120,60 154,40 188,60 188,100 154,120 120,100"
-    fill="none" stroke="#8FFF52" stroke-width="2.5" filter="url(#glow-green)">
-    <animate attributeName="stroke-opacity" values="1;0.45;1" dur="3.2s" repeatCount="indefinite"/>
-  </polygon>
-  <polygon points="128,66 154,51 180,66 180,94 154,109 128,94"
-    fill="#0B1A0D" stroke="#253128" stroke-width="1"/>
-  <circle cx="154" cy="80" r="20" fill="none" stroke="#8FFF52" stroke-width="1.4" stroke-opacity="0.35">
-    <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="2.7s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="2.7s" repeatCount="indefinite" additive="sum"/>
-  </circle>
-  <circle cx="154" cy="80" r="8" fill="#8FFF52" opacity="0.9" filter="url(#glow-green)">
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
-  <path d="M154 57 L154 63 M171 80 L165 80 M154 97 L154 91 M137 80 L143 80"
-    stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <rect x="116" y="48" width="118" height="52" rx="14" fill="#08110B" opacity="0.9"/>
+  <circle cx="138" cy="74" r="7" fill="#C5FF00" class="pulse"/>
+  <circle cx="158" cy="74" r="4" fill="#00D8FF" class="float"/>
+  <circle cx="176" cy="74" r="7" fill="#8FFF52" class="pulse"/>
+  <path d="M132 74H182" stroke="#253128" stroke-width="1"/>
 
-  <text x="210" y="72" class="orb" font-size="22" fill="#8FFF52" letter-spacing="3" filter="url(#glow-green)">YACIN</text>
-  <text x="210" y="100" class="orb" font-size="22" fill="#EEF6EF" letter-spacing="3">BEN KACEM</text>
+  <text x="244" y="72" class="orb" font-size="22" fill="#8FFF52" letter-spacing="3" filter="url(#glow-green)">YACIN</text>
+  <text x="244" y="100" class="orb" font-size="22" fill="#EEF6EF" letter-spacing="3">BEN KACEM</text>
 
   <line x1="120" y1="132" x2="490" y2="132" stroke="#8FFF52" stroke-width="1" opacity="0.4"/>
 
