@@ -14,7 +14,7 @@
   <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" fill="#E5F5E5" font-weight="600">
     <text x="28" y="58">Agentic Systems</text>
     <text x="310" y="58">Backend Engineering</text>
-    <text x="592" y="58">MLOps &amp; CV Pipelines</text>
+    <text x="592" y="58">Automation Workflows</text>
   </g>
 
   <g fill="#0e160f" stroke="#1f2b22">
@@ -36,9 +36,9 @@
   <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" fill="#8CA08A">
     <text x="28" y="100">Tool routing · resilient workflows · automation</text>
     <text x="310" y="100">API design · secure services · platform delivery</text>
-    <text x="592" y="100">Model serving · RAG · data orchestration</text>
+    <text x="592" y="100">Agent chains · integrations · automation ops</text>
   </g>
 
   <line x1="28" y1="114" x2="832" y2="114" stroke="#1f2b22"/>
-  <text x="28" y="130" fill="#8FFF52" font-size="10" font-family="Segoe UI, Inter, Arial, sans-serif" letter-spacing="1">OPEN TO INTERNSHIPS · AI · BACKEND · AUTOMATION</text>
+  <text x="28" y="130" fill="#8FFF52" font-size="10" font-family="Segoe UI, Inter, Arial, sans-serif" letter-spacing="1">OPEN TO INTERNSHIPS · BACKEND · AGENTIC AI · AUTOMATION</text>
 </svg>

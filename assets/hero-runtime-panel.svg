@@ -19,18 +19,18 @@
   <rect x="12" y="12" width="836" height="116" rx="12" fill="none" stroke="#1f2b22"/>
   <text x="28" y="30" fill="#8FFF52" font-size="10" font-family="Segoe UI, Inter, Arial, sans-serif" letter-spacing="2">// RUNTIME SNAPSHOT</text>
   <text x="28" y="64" fill="#E5F5E5" font-size="22" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700">Building resilient AI platforms &amp; secure backend systems</text>
-  <text x="28" y="86" fill="#8CA08A" font-size="12" font-family="Segoe UI, Inter, Arial, sans-serif">Focus: agentic workflows, orchestration, and production-grade ML delivery.</text>
+  <text x="28" y="86" fill="#8CA08A" font-size="12" font-family="Segoe UI, Inter, Arial, sans-serif">Focus: agentic automation, orchestration, and scalable backend delivery.</text>
 
   <rect x="28" y="98" width="118" height="24" rx="6" fill="#0e160f" stroke="#1f2b22"/>
   <text x="38" y="114" fill="#8FFF52" font-size="11" font-family="Segoe UI, Inter, Arial, sans-serif">Sousse, TN</text>
 
-  <rect x="160" y="98" width="150" height="24" rx="6" fill="#0e160f" stroke="#1f2b22"/>
-  <text x="170" y="114" fill="#C5FF00" font-size="11" font-family="Segoe UI, Inter, Arial, sans-serif">Agentic AI</text>
+  <rect x="160" y="98" width="160" height="24" rx="6" fill="#0e160f" stroke="#1f2b22"/>
+  <text x="170" y="114" fill="#C5FF00" font-size="11" font-family="Segoe UI, Inter, Arial, sans-serif">Agentic Automation</text>
 
-  <rect x="324" y="98" width="170" height="24" rx="6" fill="#0e160f" stroke="#1f2b22"/>
-  <text x="334" y="114" fill="#8FFF52" font-size="11" font-family="Segoe UI, Inter, Arial, sans-serif">Open to Internships</text>
+  <rect x="334" y="98" width="180" height="24" rx="6" fill="#0e160f" stroke="#1f2b22"/>
+  <text x="344" y="114" fill="#8FFF52" font-size="11" font-family="Segoe UI, Inter, Arial, sans-serif">Open to Internships</text>
 
-  <line x1="520" y1="110" x2="820" y2="110" stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.3">
+  <line x1="540" y1="110" x2="820" y2="110" stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.3">
     <animate attributeName="opacity" values="0.25;0.75;0.25" dur="4s" repeatCount="indefinite"/>
   </line>
 </svg>

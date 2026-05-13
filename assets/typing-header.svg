@@ -18,8 +18,8 @@
   </rect>
   <rect x="12" y="12" width="836" height="116" rx="14" fill="none" stroke="#8FFF52" stroke-opacity="0.35"/>
   <text x="430" y="68" fill="#E5F5E5" font-size="34" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700" text-anchor="middle">Yacin Ben Kacem</text>
-  <text x="430" y="98" fill="#8FFF52" font-size="16" font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle" opacity="0.9">AI Engineer • Full-Stack • MLOps</text>
-  <line x1="270" y1="112" x2="590" y2="112" stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.45">
+  <text x="430" y="98" fill="#8FFF52" font-size="16" font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle" opacity="0.9">Backend &amp; Agentic AI · Automations</text>
+  <line x1="250" y1="112" x2="610" y2="112" stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.45">
     <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
   </line>
 </svg>
