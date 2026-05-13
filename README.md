@@ -61,10 +61,10 @@
 
 <p align="center">
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12" width="410" alt="GitHub Stats"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12&rank_icon=github&custom_title=Engineering%20Stats" width="410" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=6&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12" width="410" alt="Top Languages"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=8&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&hide_border=true&border_radius=12&card_width=320" width="410" alt="Top Languages"/>
   </a>
 </p>
 
