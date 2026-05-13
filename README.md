@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 
@@ -67,10 +67,10 @@
 
 <p align="center">
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github" height="165" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" height="165" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&count_private=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&cache_seconds=1800" height="165" alt="Top Languages" />
   </a>
 </p>
 
@@ -81,15 +81,5 @@
 ---
 
 <div align="center">
-
-`	ext
-┌─────────────────────────────────────────────────────────────┐
-│  Architecting secure backend systems and agentic AI         │
-│  workflows that survive real-world failure.                 │
-│                                                             │
-│  Open to internships & technical collaborations in:         │
-│  Agentic AI  ·  Backend Engineering  ·  Automation          │
-└─────────────────────────────────────────────────────────────┘
-`
-
+<img src="assets/closing-cta.svg" width="860" alt="Open to Work"/>
 </div>

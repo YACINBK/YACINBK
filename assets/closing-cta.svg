@@ -1,0 +1,116 @@
+<svg width="860" height="140" viewBox="0 0 860 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+      .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+
+      /* Blinking cursor */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      .cursor { animation: blink 1s step-start infinite; }
+
+      /* Fade-in lines */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(4px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .line1 { animation: fadeIn 0.4s ease 0.2s both; }
+      .line2 { animation: fadeIn 0.4s ease 0.5s both; }
+      .line3 { animation: fadeIn 0.4s ease 0.8s both; }
+      .line4 { animation: fadeIn 0.4s ease 1.1s both; }
+      .line5 { animation: fadeIn 0.4s ease 1.4s both; }
+      .line6 { animation: fadeIn 0.4s ease 1.7s both; }
+      .line7 { animation: fadeIn 0.4s ease 2.0s both; }
+
+      /* Scrolling ticker at bottom */
+      @keyframes ticker {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .ticker-inner { animation: ticker 18s linear infinite; }
+    </style>
+
+    <!-- Scanline pattern overlay -->
+    <pattern id="scan" x="0" y="0" width="860" height="3" patternUnits="userSpaceOnUse">
+      <rect width="860" height="1" y="2" fill="#8FFF52" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="140" fill="#050705"/>
+
+  <!-- Outer border (double-line style) -->
+  <rect x="8"  y="8"  width="844" height="124" rx="3" fill="none" stroke="#253128" stroke-width="1"/>
+  <rect x="11" y="11" width="838" height="118" rx="2" fill="none" stroke="#1a2b1d" stroke-width="1"/>
+
+  <!-- Scanline overlay -->
+  <rect width="860" height="140" fill="url(#scan)"/>
+
+  <!-- Corner decorations -->
+  <!-- TL -->
+  <text x="14" y="25" class="mono" font-size="12" fill="#8FFF52" opacity="0.6">╔</text>
+  <!-- TR -->
+  <text x="836" y="25" class="mono" font-size="12" fill="#8FFF52" opacity="0.6">╗</text>
+  <!-- BL -->
+  <text x="14" y="132" class="mono" font-size="12" fill="#8FFF52" opacity="0.6">╚</text>
+  <!-- BR -->
+  <text x="836" y="132" class="mono" font-size="12" fill="#8FFF52" opacity="0.6">╝</text>
+
+  <!-- Prompt prefix (top-left) -->
+  <text x="28" y="26" class="mono" font-size="9" fill="#8FFF52" opacity="0.5">// STATUS</text>
+
+  <!-- Dim horizontal rule under header -->
+  <line x1="28" y1="32" x2="832" y2="32" stroke="#253128" stroke-width="1"/>
+
+  <!-- Content lines -->
+  <!-- Line 1: section label -->
+  <g class="line1">
+    <text x="38" y="52" class="mono" font-size="11" fill="#8FFF52" font-weight="700" letter-spacing="2">AVAILABLE FOR NEW OPPORTUNITIES</text>
+    <text x="700" y="52" class="mono" font-size="9" fill="#8FFF52" opacity="0.4">[ ACTIVE ]</text>
+    <circle cx="692" cy="48" r="3" fill="#8FFF52">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Line 2: description -->
+  <g class="line2">
+    <text x="38" y="70" class="mono" font-size="10" fill="#9cb89e">Architecting secure backend systems and agentic AI workflows</text>
+    <text x="38" y="84" class="mono" font-size="10" fill="#9cb89e">that survive real-world failure.</text>
+  </g>
+
+  <!-- Divider -->
+  <g class="line3">
+    <line x1="38" y1="94" x2="822" y2="94" stroke="#1a2b1d" stroke-width="1" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Tags row -->
+  <g class="line4">
+    <text x="38" y="110" class="mono" font-size="9" fill="#050705">▓</text>
+    <rect x="50" y="100" width="96" height="14" rx="2" fill="#132015" stroke="#253128" stroke-width="1"/>
+    <text x="56" y="111" class="mono" font-size="9" fill="#8FFF52">Agentic AI</text>
+
+    <rect x="156" y="100" width="140" height="14" rx="2" fill="#132015" stroke="#253128" stroke-width="1"/>
+    <text x="162" y="111" class="mono" font-size="9" fill="#8FFF52">Backend Engineering</text>
+
+    <rect x="306" y="100" width="90" height="14" rx="2" fill="#132015" stroke="#253128" stroke-width="1"/>
+    <text x="312" y="111" class="mono" font-size="9" fill="#8FFF52">Automation</text>
+
+    <rect x="406" y="100" width="128" height="14" rx="2" fill="#132015" stroke="#253128" stroke-width="1"/>
+    <text x="412" y="111" class="mono" font-size="9" fill="#8FFF52">Open to Internships</text>
+  </g>
+
+  <!-- Cursor + prompt -->
+  <g class="line5">
+    <text x="38" y="127" class="mono" font-size="9" fill="#8FFF52" opacity="0.5">yacinbenkacem19@gmail.com</text>
+    <text x="220" y="127" class="mono" font-size="9" fill="#253128">·</text>
+    <text x="228" y="127" class="mono" font-size="9" fill="#8FFF52" opacity="0.5">yacinbenkacem.me</text>
+    <text x="350" y="127" class="mono" font-size="9" fill="#253128">·</text>
+    <text x="358" y="127" class="mono" font-size="9" fill="#8FFF52" opacity="0.5">github.com/YACINBK</text>
+  </g>
+
+  <!-- Blinking cursor at end -->
+  <rect class="cursor" x="486" y="119" width="6" height="10" fill="#8FFF52" opacity="0.8"/>
+</svg>
