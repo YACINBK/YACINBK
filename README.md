@@ -2,8 +2,6 @@
   <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 </div>
 
-<br/>
-
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-yacinbenkacem.me-050705?style=for-the-badge&logo=firefoxbrowser&logoColor=8FFF52&labelColor=11160F)](https://yacinbenkacem.me/)
@@ -16,7 +14,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/hero-runtime-panel.svg" width="860" alt="Runtime Panel"/>
+  <img src="assets/hero-runtime-panel.svg" width="860" alt="Runtime Snapshot"/>
 </div>
 
 <br/>
@@ -47,13 +45,9 @@
   <img src="https://skillicons.dev/icons?i=py,java,c,cpp,cs,ts&theme=dark&perline=6" alt="Languages"/>
 </div>
 
-<br/>
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=spring,fastapi,flask,django,angular,react&theme=dark&perline=6" alt="Frameworks and Runtimes"/>
 </div>
-
-<br/>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mongo,docker,pytorch,tensorflow,git&theme=dark&perline=6" alt="Infrastructure and ML"/>
@@ -67,10 +61,10 @@
 
 <p align="center">
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=10" width="420" alt="GitHub Stats"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12" width="410" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=8&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=10" width="420" alt="Top Languages"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=6&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12" width="410" alt="Top Languages"/>
   </a>
 </p>
 
