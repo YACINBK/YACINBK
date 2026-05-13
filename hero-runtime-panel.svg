@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" width="1200" height="320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap');
+      .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+      .orb  { font-family: 'Orbitron', 'Courier New', monospace; font-weight: 900; }
+      @keyframes scan  { 0%{transform:translateY(-320px)} 100%{transform:translateY(320px)} }
+      @keyframes pulse { 0%,100%{opacity:0.18} 50%{opacity:0.48} }
+      @keyframes glow  { 0%,100%{filter:drop-shadow(0 0 6px #8FFF52)} 50%{filter:drop-shadow(0 0 18px #8FFF52)} }
+    </style>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#132015" stroke-width="0.8"/>
+    </pattern>
+
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="#050705"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <rect width="1200" height="3" fill="#8FFF52" opacity="0.07">
+    <animateTransform attributeName="transform" type="translate" from="0,-320" to="0,640" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="0" width="4" height="320" fill="#8FFF52" opacity="0.9"/>
+  <polyline points="4,60 4,4 64,4" fill="none" stroke="#8FFF52" stroke-width="2"/>
+  <polyline points="1136,316 1196,316 1196,256" fill="none" stroke="#8FFF52" stroke-width="2"/>
+  <polyline points="1136,4 1196,4 1196,64" fill="none" stroke="#253128" stroke-width="1.5"/>
+  <polyline points="64,316 4,316 4,260" fill="none" stroke="#253128" stroke-width="1.5"/>
+
+  <line x1="520" y1="24" x2="520" y2="296" stroke="#132015" stroke-width="1"/>
+
+  <rect x="116" y="48" width="118" height="52" rx="14" fill="#08110B" opacity="0.9"/>
+  <circle cx="138" cy="74" r="7" fill="#C5FF00" class="pulse"/>
+  <circle cx="158" cy="74" r="4" fill="#00D8FF" class="float"/>
+  <circle cx="176" cy="74" r="7" fill="#8FFF52" class="pulse"/>
+  <path d="M132 74H182" stroke="#253128" stroke-width="1"/>
+
+  <text x="244" y="72" class="orb" font-size="22" fill="#8FFF52" letter-spacing="3" filter="url(#glow-green)">YACIN</text>
+  <text x="244" y="100" class="orb" font-size="22" fill="#EEF6EF" letter-spacing="3">BEN KACEM</text>
+
+  <line x1="120" y1="132" x2="490" y2="132" stroke="#8FFF52" stroke-width="1" opacity="0.4"/>
+
+  <rect x="120" y="144" width="136" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="160" class="mono" font-size="11" fill="#8FFF52">PLATFORM BUILDER</text>
+
+  <rect x="264" y="144" width="160" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="276" y="160" class="mono" font-size="11" fill="#D9FFB8">BACKEND ORCHESTRATION</text>
+
+  <rect x="120" y="174" width="114" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="190" class="mono" font-size="11" fill="#D9FFB8">SYSTEM DESIGN</text>
+
+  <rect x="242" y="174" width="140" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="254" y="190" class="mono" font-size="11" fill="#8CA08A">PRODUCT DELIVERY</text>
+
+  <rect x="120" y="210" width="240" height="28" rx="4" fill="#0B1A0D" stroke="#8FFF52" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="132" y="229" class="mono" font-size="12" fill="#8FFF52">&gt; ENISo</text>
+  <text x="176" y="229" class="mono" font-size="12" fill="#8CA08A">Sousse - Applied CS Engineering</text>
+
+  <rect x="120" y="246" width="180" height="22" rx="3" fill="#0B1A0D" stroke="#253128"/>
+  <text x="132" y="262" class="mono" font-size="11" fill="#8CA08A">ZINDI - 31st/69 IndabaX Tunisia</text>
+
+  <rect x="120" y="278" width="8" height="16" fill="#8FFF52" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="134" y="291" class="mono" font-size="12" fill="#253128">SYSTEM ONLINE</text>
+
+  <rect x="540" y="24" width="640" height="272" rx="6" fill="#060E07" stroke="#132015"/>
+  <circle cx="564" cy="46" r="6" fill="#FF5F57"/>
+  <circle cx="582" cy="46" r="6" fill="#FFBD2E"/>
+  <circle cx="600" cy="46" r="6" fill="#28C840"/>
+  <text x="624" y="51" class="mono" font-size="11" fill="#253128">yacin@runtime-engine ~</text>
+  <line x1="540" y1="60" x2="1180" y2="60" stroke="#132015" stroke-width="1"/>
+
+  <text x="560" y="88" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="88" class="mono" font-size="13" fill="#D9FFB8"> whoami</text>
+  <text x="560" y="108" class="mono" font-size="13" fill="#8CA08A">  Yacin Ben Kacem - Applied CS Engineering @ ENISo</text>
+
+  <text x="560" y="132" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="132" class="mono" font-size="13" fill="#D9FFB8"> cat current_focus.txt</text>
+  <text x="560" y="152" class="mono" font-size="13" fill="#8CA08A">  automation pipelines - backend orchestration - system design</text>
+  <text x="560" y="169" class="mono" font-size="13" fill="#8CA08A">  shipping under real constraints</text>
+
+  <text x="560" y="193" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="193" class="mono" font-size="13" fill="#D9FFB8"> ls ./philosophy</text>
+  <text x="560" y="213" class="mono" font-size="13" fill="#8CA08A">  design_first.md   fallbacks_always.md</text>
+  <text x="560" y="230" class="mono" font-size="13" fill="#8CA08A">  cache_smartly.md   secure_by_default.md</text>
+
+  <text x="560" y="254" class="mono" font-size="13" fill="#8FFF52">$</text>
+  <text x="576" y="254" class="mono" font-size="13" fill="#D9FFB8"> ping open_to_work</text>
+  <text x="560" y="274" class="mono" font-size="13" fill="#28C840">  [OK] RESPONDING - internships &amp; collaborations</text>
+
+  <rect x="560" y="284" width="8" height="14" fill="#8FFF52">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="1196" y="0" width="4" height="320" fill="#253128" opacity="0.6"/>
+</svg>

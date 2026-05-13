@@ -1,0 +1,92 @@
+<svg viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg" width="860" height="180">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+
+      @keyframes fillBar {
+        from { width: 0px; }
+      }
+      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+      @keyframes pulse  { 0%,100%{opacity:0.7} 50%{opacity:1} }
+
+      .b1 { animation: fillBar 1.2s 0.2s cubic-bezier(.4,0,.2,1) both; }
+      .b2 { animation: fillBar 1.4s 0.4s cubic-bezier(.4,0,.2,1) both; }
+      .b3 { animation: fillBar 1.0s 0.6s cubic-bezier(.4,0,.2,1) both; }
+      .b4 { animation: fillBar 1.6s 0.3s cubic-bezier(.4,0,.2,1) both; }
+      .b5 { animation: fillBar 1.3s 0.5s cubic-bezier(.4,0,.2,1) both; }
+      .b6 { animation: fillBar 1.5s 0.7s cubic-bezier(.4,0,.2,1) both; }
+
+      .card { animation: fadeIn 0.5s ease both; }
+    </style>
+
+    <pattern id="g2" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0e1a10" stroke-width="0.7"/>
+    </pattern>
+
+    <filter id="gf2">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="860" height="180" fill="#050705"/>
+  <rect width="860" height="180" fill="url(#g2)"/>
+
+  <!-- Section header -->
+  <rect x="0" y="0" width="3" height="180" fill="#253128"/>
+  <text x="18" y="20" class="mono" font-size="9" fill="#8FFF52" letter-spacing="2">// CORE EXPERTISE</text>
+  <line x1="18" y1="26" x2="842" y2="26" stroke="#132015" stroke-width="1"/>
+
+  <!-- LEFT COLUMN: Backend & Agentic -->
+  <!-- Card 1 -->
+  <rect x="18" y="38" width="252" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="30" y="56" class="mono" font-size="10" fill="#8FFF52" letter-spacing="1">AGENTIC SYSTEMS</text>
+  <rect x="30" y="62" width="220" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="30" y="62" width="198" height="5" rx="2" fill="#8FFF52" class="b1"/>
+  <text x="30" y="85" class="mono" font-size="9" fill="#8CA08A">multi-step AI workflows · tool routing · retries</text>
+
+  <!-- Card 2 -->
+  <rect x="18" y="102" width="252" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="30" y="120" class="mono" font-size="10" fill="#C5FF00" letter-spacing="1">SECURE BACKEND</text>
+  <rect x="30" y="126" width="220" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="30" y="126" width="210" height="5" rx="2" fill="#C5FF00" class="b2"/>
+  <text x="30" y="149" class="mono" font-size="9" fill="#8CA08A">JWT/OIDC · gateways · clean API contracts</text>
+
+  <!-- MIDDLE COLUMN -->
+  <!-- Card 3 -->
+  <rect x="284" y="38" width="252" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="296" y="56" class="mono" font-size="10" fill="#8FFF52" letter-spacing="1">RESILIENT WORKFLOWS</text>
+  <rect x="296" y="62" width="220" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="296" y="62" width="192" height="5" rx="2" fill="#8FFF52" class="b3"/>
+  <text x="296" y="85" class="mono" font-size="9" fill="#8CA08A">caching · fallbacks · resource-aware exec</text>
+
+  <!-- Card 4 -->
+  <rect x="284" y="102" width="252" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="296" y="120" class="mono" font-size="10" fill="#D9FFB8" letter-spacing="1">ML / MODEL SERVING</text>
+  <rect x="296" y="126" width="220" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="296" y="126" width="180" height="5" rx="2" fill="#D9FFB8" class="b4"/>
+  <text x="296" y="149" class="mono" font-size="9" fill="#8CA08A">LoRA/QLoRA · Ollama · Triton · quantization</text>
+
+  <!-- RIGHT COLUMN -->
+  <!-- Card 5 -->
+  <rect x="550" y="38" width="292" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="562" y="56" class="mono" font-size="10" fill="#8FFF52" letter-spacing="1">PLATFORM DELIVERY</text>
+  <rect x="562" y="62" width="262" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="562" y="62" width="245" height="5" rx="2" fill="#8FFF52" class="b5"/>
+  <text x="562" y="85" class="mono" font-size="9" fill="#8CA08A">Docker Compose · Spring Boot · FastAPI · Angular</text>
+
+  <!-- Card 6 -->
+  <rect x="550" y="102" width="292" height="58" rx="4" fill="#080f09" stroke="#132015"/>
+  <text x="562" y="120" class="mono" font-size="10" fill="#00D8FF" letter-spacing="1">DATA &amp; CV PIPELINES</text>
+  <rect x="562" y="126" width="262" height="5" rx="2" fill="#0e1a10"/>
+  <rect x="562" y="126" width="220" height="5" rx="2" fill="#00D8FF" class="b6"/>
+  <text x="562" y="149" class="mono" font-size="9" fill="#8CA08A">OCR · ChromaDB · RAG · PostgreSQL · Streamlit</text>
+
+  <!-- Bottom status bar -->
+  <line x1="18" y1="166" x2="842" y2="166" stroke="#132015" stroke-width="1"/>
+  <circle cx="28" cy="174" r="3" fill="#8FFF52">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="38" y="177" class="mono" font-size="9" fill="#253128" letter-spacing="1">OPEN TO INTERNSHIPS  ·  AGENTIC AI  ·  BACKEND  ·  AUTOMATION</text>
+</svg>
