@@ -67,15 +67,15 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YACINBK&amp;show_icons=true&amp;bg_color=050705&amp;title_color=8FFF52&amp;text_color=EEF6EF&amp;icon_color=8FFF52&amp;border_color=253128&amp;rank_icon=github&amp;hide_border=false" alt="GitHub Stats"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github&hide_border=false" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&amp;layout=compact&amp;bg_color=050705&amp;title_color=8FFF52&amp;text_color=EEF6EF&amp;icon_color=8FFF52&amp;border_color=253128" alt="Top Languages"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&amp;bg_color=050705&amp;color=8FFF52&amp;line=8FFF52&amp;point=C5FF00&amp;area_color=132015&amp;area=true&amp;hide_border=false&amp;border_color=253128" width="860" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area_color=132015&area=true&hide_border=false&border_color=253128" width="860" alt="Activity Graph"/>
 
 </div>
 
