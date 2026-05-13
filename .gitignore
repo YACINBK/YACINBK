@@ -1,0 +1,22 @@
+﻿# Local OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Action workflow cache (do not ignore assets/generated as we push it, but ignore temp scripts if any)
+node_modules/
+__pycache__/
+
+# Zip files that may have been generated locally
+*.zip
+*.tar.gz
+*.rar
