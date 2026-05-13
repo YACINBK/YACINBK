@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 
@@ -43,7 +43,7 @@
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -63,7 +63,7 @@
 
 ---
 
-## ðŸ“Š GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -84,14 +84,13 @@
 <div align="center">
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  Architecting secure backend systems and agentic AI         â”‚
-â”‚  workflows that survive real-world failure.                  â”‚
-â”‚                                                             â”‚
-â”‚  Open to internships & technical collaborations in:         â”‚
-â”‚  Agentic AI  Â·  Backend Engineering  Â·  Automation          â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌─────────────────────────────────────────────────────────────┐
+│  Architecting secure backend systems and agentic AI         │
+│  workflows that survive real-world failure.                  │
+│                                                             │
+│  Open to internships & technical collaborations in:         │
+│  Agentic AI  ·  Backend Engineering  ·  Automation          │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
-
