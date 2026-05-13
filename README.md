@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 
@@ -43,7 +43,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
 <div align="center">
 
@@ -63,7 +63,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+## ðŸ“Š GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/YACINBK">
@@ -75,7 +75,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area_color=132015&area=true&hide_border=false&border_color=253128" width="860" alt="Activity Graph"/>
+  <img src="assets/generated/activity-graph.svg" width="860" alt="Activity Graph"/>
 </p>
 
 ---
@@ -83,3 +83,4 @@
 <div align="center">
 <img src="assets/closing-cta.svg" width="860" alt="Open to Work"/>
 </div>
+
