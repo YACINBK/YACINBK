@@ -1,7 +1,7 @@
 <svg viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg" width="860" height="180">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+
       .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
 
       @keyframes fillBar {

@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" width="1200" height="320">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap');
+
       .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
       .orb  { font-family: 'Orbitron', 'Courier New', monospace; font-weight: 900; }
       @keyframes scan  { 0%{transform:translateY(-320px)} 100%{transform:translateY(320px)} }
