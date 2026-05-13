@@ -83,10 +83,10 @@
 
 <div align="center">
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  Architecting secure backend systems and agentic AI         │
-│  workflows that survive real-world failure.                  │
+│  workflows that survive real-world failure.                 │
 │                                                             │
 │  Open to internships & technical collaborations in:         │
 │  Agentic AI  ·  Backend Engineering  ·  Automation          │
