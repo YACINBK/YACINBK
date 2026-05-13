@@ -1,10 +1,8 @@
-﻿<div align="center">
-
-<img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
-
+<div align="center">
+  <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 </div>
 
-<br>
+<br/>
 
 <div align="center">
 
@@ -15,72 +13,73 @@
 
 </div>
 
-<br>
-
----
+<br/>
 
 <div align="center">
-<img src="assets/hero-runtime-panel.svg" width="860" alt="Runtime Panel"/>
+  <img src="assets/hero-runtime-panel.svg" width="860" alt="Runtime Panel"/>
 </div>
 
----
+<br/>
 
 <div align="center">
-<img src="assets/expertise-panel.svg" width="860" alt="Core Expertise"/>
+  <img src="assets/expertise-panel.svg" width="860" alt="Core Expertise"/>
 </div>
 
----
+<br/>
 
 <div align="center">
-<img src="assets/projects-panel.svg" width="860" alt="Featured Projects"/>
+  <img src="assets/projects-panel.svg" width="860" alt="Featured Projects"/>
 </div>
 
----
+<br/>
 
 <div align="center">
-<img src="assets/philosophy-ticker.svg" width="860" alt="Philosophy"/>
+  <img src="assets/philosophy-ticker.svg" width="860" alt="Philosophy"/>
 </div>
 
----
-
-## ðŸ› ï¸ Tech Stack
+<br/>
 
 <div align="center">
-
-**Languages**
-
-[![Languages](https://skillicons.dev/icons?i=py,java,c,cpp,cs,ts&theme=dark)](https://skillicons.dev)
-
-**Frameworks & Runtimes**
-
-[![Frameworks](https://skillicons.dev/icons?i=spring,fastapi,flask,django,angular,react&theme=dark)](https://skillicons.dev)
-
-**Infrastructure & ML**
-
-[![Tools](https://skillicons.dev/icons?i=postgres,mongo,docker,pytorch,tensorflow,git&theme=dark)](https://skillicons.dev)
-
+  <img src="assets/tech-stack-banner.svg" width="860" alt="Tech Stack"/>
 </div>
 
----
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,c,cpp,cs,ts&theme=dark&perline=6" alt="Languages"/>
+</div>
 
-## ðŸ“Š GitHub Analytics
+<br/>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=spring,fastapi,flask,django,angular,react&theme=dark&perline=6" alt="Frameworks and Runtimes"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongo,docker,pytorch,tensorflow,git&theme=dark&perline=6" alt="Infrastructure and ML"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/analytics-banner.svg" width="860" alt="GitHub Analytics"/>
+</div>
 
 <p align="center">
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=10" width="420" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&count_private=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&cache_seconds=1800" height="165" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=8&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=10" width="420" alt="Top Languages"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="assets/generated/activity-graph.svg" width="860" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area=true&hide_border=true" width="860" alt="Activity Graph"/>
 </p>
 
----
+<br/>
 
 <div align="center">
-<img src="assets/closing-cta.svg" width="860" alt="Open to Work"/>
+  <img src="assets/closing-cta.svg" width="860" alt="Open to Work"/>
 </div>
-
