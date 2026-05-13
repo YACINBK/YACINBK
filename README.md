@@ -60,12 +60,10 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&include_all_commits=true&count_private=true&theme=dark&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&icon_color=8FFF52&hide_border=true&border_radius=12&rank_icon=github&cache_seconds=1800" width="410" alt="GitHub Stats"/>
-  </a>
-  <a href="https://github.com/YACINBK">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&langs_count=8&theme=dark&bg_color=050705&title_color=8FFF52&text_color=E5F5E5&hide_border=true&border_radius=12&card_width=320&cache_seconds=1800" width="410" alt="Top Languages"/>
-  </a>
+  <img src="https://img.shields.io/github/stars/YACINBK?style=for-the-badge&label=Stars&color=8FFF52&labelColor=050705" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/followers/YACINBK?style=for-the-badge&label=Followers&color=8FFF52&labelColor=050705" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/repos-per-user/YACINBK?style=for-the-badge&label=Public%20Repos&color=8FFF52&labelColor=050705" alt="Public Repos"/>
+  <img src="https://img.shields.io/github/last-commit/YACINBK/YACINBK?style=for-the-badge&label=Profile%20Update&color=8FFF52&labelColor=050705" alt="Last Update"/>
 </p>
 
 <p align="center">
