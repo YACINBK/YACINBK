@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
 
@@ -65,25 +65,24 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/YACINBK">
+    <img src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github" height="165" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/YACINBK">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" height="165" alt="Top Languages" />
+  </a>
+</p>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github&hide_border=false" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128" alt="Top Languages"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area_color=132015&area=true&hide_border=false&border_color=253128" width="860" alt="Activity Graph"/>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area_color=132015&area=true&hide_border=false&border_color=253128" width="860" alt="Activity Graph"/>
+</p>
 
 ---
 
 <div align="center">
 
-```text
+`	ext
 ┌─────────────────────────────────────────────────────────────┐
 │  Architecting secure backend systems and agentic AI         │
 │  workflows that survive real-world failure.                 │
@@ -91,6 +90,6 @@
 │  Open to internships & technical collaborations in:         │
 │  Agentic AI  ·  Backend Engineering  ·  Automation          │
 └─────────────────────────────────────────────────────────────┘
-```
+`
 
 </div>
