@@ -62,8 +62,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/YACINBK?style=for-the-badge&label=Stars&color=8FFF52&labelColor=050705" alt="GitHub Stars"/>
   <img src="https://img.shields.io/github/followers/YACINBK?style=for-the-badge&label=Followers&color=8FFF52&labelColor=050705" alt="GitHub Followers"/>
-  <img src="https://img.shields.io/github/repos-per-user/YACINBK?style=for-the-badge&label=Public%20Repos&color=8FFF52&labelColor=050705" alt="Public Repos"/>
-  <img src="https://img.shields.io/github/last-commit/YACINBK/YACINBK?style=for-the-badge&label=Profile%20Update&color=8FFF52&labelColor=050705" alt="Last Update"/>
+  <img src="https://img.shields.io/github/public-repos/YACINBK?style=for-the-badge&label=Public%20Repos&color=8FFF52&labelColor=050705" alt="Public Repos"/>
 </p>
 
 <p align="center">
