@@ -29,6 +29,12 @@
   <img src="assets/projects-panel.svg?v=2" width="860" alt="Featured Projects"/>
 </div>
 
+<p align="center">
+  <a href="https://github.com/YACINBK/ux-insight-platform"><strong>UX Insight Platform</strong></a> ·
+  <a href="https://github.com/YACINBK/quickflow"><strong>QuickFlow</strong></a> ·
+  <a href="https://github.com/YACINBK/image-vectorization"><strong>AI Image Vectorization</strong></a>
+</p>
+
 <br/>
 
 <div align="center">
