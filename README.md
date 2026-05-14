@@ -26,7 +26,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/projects-panel.svg" width="860" alt="Featured Projects"/>
+  <img src="assets/projects-panel.svg?v=2" width="860" alt="Featured Projects"/>
 </div>
 
 <br/>
