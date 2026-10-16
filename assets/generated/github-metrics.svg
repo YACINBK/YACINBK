@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="130" viewBox="0 0 860 130" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub metrics awaiting their first refresh</title>
+  <desc id="desc">Public repository, star, and follower counts will appear after the first successful GitHub Actions run.</desc>
+  <rect x="1" y="1" width="858" height="128" rx="12" fill="#F4F7FF" stroke="#CAD6FF"/>
+  <g font-family="Verdana, Geneva, sans-serif" fill="#16275C">
+    <text x="28" y="48" font-size="21" font-weight="700">GitHub metrics</text>
+    <text x="28" y="80" font-size="16">Awaiting the first successful refresh.</text>
+    <text x="28" y="108" font-size="13">Public repositories, stars, and followers · Updated by GitHub Actions</text>
+  </g>
+</svg>

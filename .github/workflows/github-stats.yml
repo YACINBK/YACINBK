@@ -1,70 +1,65 @@
-﻿name: Generate GitHub Stats
+name: Refresh GitHub metrics
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "23 */6 * * *"
   push:
     branches: [main]
-  workflow_dispatch:          # manual trigger
+    paths:
+      - .github/workflows/github-stats.yml
+      - scripts/github_metrics.py
+      - tests/test_github_metrics.py
+      - README.md
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: github-metrics-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  generate-stats:
+  refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Create generated directory
-        run: mkdir -p assets/generated
-
-      - name: Fetch stats card
-        run: |
-          curl -sL \
-            "https://github-readme-stats.vercel.app/api?username=YACINBK&show_icons=true&count_private=true&include_all_commits=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&rank_icon=github&hide_border=false&cache_seconds=1800" \
-            -o assets/generated/stats-card.svg || true
-
-      - name: Fetch top-langs card
-        run: |
-          curl -sL \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=YACINBK&layout=compact&count_private=true&bg_color=050705&title_color=8FFF52&text_color=EEF6EF&icon_color=8FFF52&border_color=253128&hide_border=false&cache_seconds=1800&langs_count=8" \
-            -o assets/generated/top-langs.svg || true
-
-      - name: Fetch activity graph
-        run: |
-          curl -sL \
-            "https://github-readme-activity-graph.vercel.app/graph?username=YACINBK&bg_color=050705&color=8FFF52&line=8FFF52&point=C5FF00&area_color=132015&area=true&hide_border=false&border_color=253128&radius=6" \
-            -o assets/generated/activity-graph.svg || true
-
-      - name: Commit generated assets
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: refresh GitHub stats assets [skip ci]"
-            # Use GITHUB_TOKEN for authenticated push to avoid permission issues
-            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-            target_branch="${{ github.ref_name || 'main' }}"
-            for attempt in 1 2 3; do
-              if git push origin HEAD:"${target_branch}"; then
-                break
-              fi
-              if [ "$attempt" -eq 3 ]; then
-                echo "Push failed after ${attempt} attempts"
-                exit 1
-              fi
-              git fetch origin "${target_branch}"
-              git rebase "origin/${target_branch}"
-            done
-          fi
-
-      - name: Upload generated assets artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/checkout@v5
         with:
-          name: github-stats-${{ github.run_id }}
-          path: assets/generated
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the metrics generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate metrics from GitHub's API
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/github_metrics.py
+
+      - name: Save the successful refresh
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/github-metrics.svg
+          if git diff --staged --quiet; then
+            echo "Metrics are unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh GitHub metrics [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            git fetch origin "${TARGET_BRANCH}"
+            git rebase "origin/${TARGET_BRANCH}"
+          done
+          echo "Could not push the metrics update."
+          exit 1
