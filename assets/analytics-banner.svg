@@ -18,6 +18,6 @@
   </rect>
   <rect x="12" y="12" width="836" height="96" rx="12" fill="none" stroke="#1f2b22"/>
   <text x="28" y="34" fill="#8FFF52" font-size="10" font-family="Segoe UI, Inter, Arial, sans-serif" letter-spacing="2">// ENGINEERING SIGNAL</text>
-  <text x="28" y="66" fill="#E5F5E5" font-size="20" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700">Public repositories, stars, and contribution rhythm</text>
-  <text x="28" y="90" fill="#8CA08A" font-size="12" font-family="Segoe UI, Inter, Arial, sans-serif">GitHub API snapshots · Refreshed every six hours · Last successful update shown below</text>
+  <text x="28" y="66" fill="#E5F5E5" font-size="20" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700">Repositories, contributions, and profile views</text>
+  <text x="28" y="90" fill="#8CA08A" font-size="12" font-family="Segoe UI, Inter, Arial, sans-serif">Repository snapshots every six hours · Profile view counter below</text>
 </svg>

@@ -75,18 +75,49 @@ def render(username, metrics, updated):
     title = escape(f"{username}: {repositories} original public repositories, {stars} stars, {followers} followers")
     stamp = escape(updated.astimezone(timezone.utc).strftime("%d %b %Y, %H:%M UTC"))
     cells = []
-    for x, value, label in zip((28, 314, 600), (repositories, stars, followers),
-                               ("Original public repos", "Stars on those repos", "Followers")):
-        cells.append(f'<text x="{x}" y="53" fill="#8FFF52" font-size="32" font-weight="700">{value:,}</text>')
-        cells.append(f'<text x="{x}" y="81" fill="#E5F5E5" font-size="16">{label}</text>')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="130" viewBox="0 0 860 130" role="img" aria-labelledby="title desc">
+    icons = (
+        '<rect x="3" y="2" width="17" height="21" rx="3"/><path d="M3 18h17M8 6v7m4-7h4"/>',
+        '<path d="M12 2l3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9z"/>',
+        '<circle cx="9" cy="7" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3M17 3a4 4 0 0 1 0 8m3 11v-3a7 7 0 0 0-3-5"/>',
+    )
+    for x, value, label, note, color, icon in zip(
+        (28, 305, 582), (repositories, stars, followers),
+        ("Repositories", "Stars", "Followers"),
+        ("Original public repositories", "Across original public repositories", "Following my work on GitHub"),
+        ("#8FFF52", "#C5FF00", "#00D8FF"), icons,
+    ):
+        cells.append(f'''<g>
+      <rect x="{x}" y="48" width="250" height="112" rx="10" fill="#0a120c" stroke="#1f2b22"/>
+      <path d="M{x + 16} 48h42" stroke="{color}" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+      <text x="{x + 16}" y="74" fill="#E5F5E5" font-size="12" font-weight="600">{label}</text>
+      <g transform="translate({x + 210} 64)" fill="none" stroke="{color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">{icon}</g>
+      <text x="{x + 16}" y="117" fill="{color}" font-size="36" font-weight="700">{value:,}</text>
+      <text x="{x + 16}" y="142" fill="#8CA08A" font-size="11">{note}</text>
+    </g>''')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="206" viewBox="0 0 860 206" role="img" aria-labelledby="title desc">
   <title id="title">{title}</title>
   <desc id="desc">Public GitHub API snapshot. Forks excluded. Last successful refresh: {stamp}.</desc>
-  <rect width="860" height="130" rx="16" fill="#050705"/>
-  <rect x="12" y="12" width="836" height="106" rx="12" fill="none" stroke="#1f2b22"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b0f0c"/><stop offset="50%" stop-color="#111a12"/><stop offset="100%" stop-color="#0b0f0c"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8FFF52" stop-opacity="0"/><stop offset="50%" stop-color="#8FFF52" stop-opacity="0.35"/><stop offset="100%" stop-color="#00D8FF" stop-opacity="0"/>
+    </linearGradient>
+    <style>@media (prefers-reduced-motion: reduce) {{ .ambient {{ display: none; }} }}</style>
+  </defs>
+  <rect width="860" height="206" rx="16" fill="#050705"/>
+  <rect width="860" height="206" rx="16" fill="url(#bg)" opacity="0.55"/>
+  <rect class="ambient" width="860" height="206" rx="16" fill="url(#glow)" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="12" y="12" width="836" height="182" rx="12" fill="none" stroke="#1f2b22"/>
   <g font-family="Segoe UI, Inter, Arial, sans-serif" fill="#8CA08A">
+    <text x="28" y="32" fill="#8FFF52" font-size="10" letter-spacing="2">// PUBLIC SNAPSHOT</text>
+    <text x="832" y="32" font-size="10" text-anchor="end" letter-spacing="1">6H REFRESH CYCLE</text>
     {''.join(cells)}
-    <text x="28" y="111" font-size="12">Last successful refresh: {stamp} · Forks excluded</text>
+    <text x="28" y="183" font-size="10">Last successful refresh: {stamp}</text>
+    <text x="832" y="183" font-size="10" text-anchor="end">PUBLIC DATA · FORKS EXCLUDED</text>
   </g>
 </svg>
 '''
@@ -137,30 +168,52 @@ def collect_activity(username, fetch=request_json):
 def render_activity(username, activity, updated):
     totals, start, end = activity
     maximum = max(max(totals), 1)
-    points = [(52 + i * 754 / max(len(totals) - 1, 1), 220 - total / maximum * 136)
+    points = [(64 + i * 738 / max(len(totals) - 1, 1), 238 - total / maximum * 126)
               for i, total in enumerate(totals)]
     line = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
-    area = f"{points[0][0]:.1f},220 {line} {points[-1][0]:.1f},220"
-    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.5" fill="#C5FF00"/>' for x, y in points)
+    area = f"{points[0][0]:.1f},238 {line} {points[-1][0]:.1f},238"
+    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2" fill="#C5FF00"/>' for x, y in points)
+    last_x, last_y = points[-1]
     stamp = updated.astimezone(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
     title = escape(f"{username}: weekly GitHub contributions, {start} to {end}")
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="284" viewBox="0 0 860 284" role="img" aria-labelledby="title desc">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-labelledby="title desc">
   <title id="title">{title}</title>
   <desc id="desc">{sum(totals):,} contributions in the returned calendar. Weekly totals; first and last weeks may be partial. Last successful refresh: {stamp}.</desc>
-  <rect width="860" height="284" rx="16" fill="#050705"/>
-  <rect x="12" y="12" width="836" height="260" rx="12" fill="none" stroke="#1f2b22"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b0f0c"/><stop offset="50%" stop-color="#111a12"/><stop offset="100%" stop-color="#0b0f0c"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FFF52" stop-opacity="0.25"/><stop offset="100%" stop-color="#8FFF52" stop-opacity="0.015"/>
+    </linearGradient>
+    <style>@media (prefers-reduced-motion: reduce) {{ .ambient {{ display: none; }} }}</style>
+  </defs>
+  <rect width="860" height="320" rx="16" fill="#050705"/>
+  <rect width="860" height="320" rx="16" fill="url(#bg)" opacity="0.55"/>
+  <rect x="12" y="12" width="836" height="296" rx="12" fill="none" stroke="#1f2b22"/>
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
-    <text x="28" y="38" fill="#8FFF52" font-size="10" letter-spacing="2">// CONTRIBUTION RHYTHM</text>
-    <text x="28" y="63" fill="#E5F5E5" font-size="18" font-weight="700">{sum(totals):,} contributions over the past year</text>
-    <path d="M52 84h754M52 152h754M52 220h754" stroke="#1f2b22" fill="none"/>
-    <text x="28" y="88" fill="#8CA08A" font-size="10">{maximum}</text>
-    <text x="28" y="224" fill="#8CA08A" font-size="10">0</text>
-    <polygon points="{area}" fill="#132015"/>
+    <text x="28" y="32" fill="#8FFF52" font-size="10" letter-spacing="2">// CONTRIBUTION RHYTHM</text>
+    <text x="28" y="65" fill="#E5F5E5" font-size="22" font-weight="700">{sum(totals):,} contributions over the past year</text>
+    <rect x="710" y="44" width="122" height="26" rx="6" fill="#0e160f" stroke="#1f2b22"/>
+    <circle cx="724" cy="57" r="3" fill="#C5FF00"/>
+    <text x="736" y="61" fill="#8CA08A" font-size="10">WEEKLY TOTALS</text>
+    <rect x="28" y="88" width="804" height="172" rx="10" fill="#0a120c" stroke="#1f2b22"/>
+    <path d="M64 112h738M64 175h738M64 238h738" stroke="#1f2b22" stroke-dasharray="3 5" fill="none"/>
+    <text x="54" y="116" fill="#8CA08A" font-size="10" text-anchor="end">{maximum}</text>
+    <text x="54" y="242" fill="#8CA08A" font-size="10" text-anchor="end">0</text>
+    <polygon points="{area}" fill="url(#area)"/>
+    <polyline points="{line}" fill="none" stroke="#8FFF52" stroke-width="7" opacity="0.08" stroke-linejoin="round"/>
     <polyline points="{line}" fill="none" stroke="#8FFF52" stroke-width="2" stroke-linejoin="round"/>
     {dots}
-    <text x="52" y="240" fill="#8CA08A" font-size="11">{escape(start)}</text>
-    <text x="806" y="240" fill="#8CA08A" font-size="11" text-anchor="end">{escape(end)}</text>
-    <text x="28" y="262" fill="#8CA08A" font-size="10">Weekly totals · Edge weeks may be partial · Last successful refresh: {stamp}</text>
+    <circle class="ambient" cx="{last_x:.1f}" cy="{last_y:.1f}" r="7" fill="none" stroke="#00D8FF" opacity="0.3">
+      <animate attributeName="r" values="4;9;4" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="3" fill="#00D8FF"/>
+    <text x="64" y="277" fill="#8CA08A" font-size="11">{escape(start)}</text>
+    <text x="802" y="277" fill="#8CA08A" font-size="11" text-anchor="end">{escape(end)}</text>
+    <text x="28" y="298" fill="#8CA08A" font-size="10">Last successful refresh: {stamp}</text>
+    <text x="832" y="298" fill="#8CA08A" font-size="10" text-anchor="end">EDGE WEEKS MAY BE PARTIAL</text>
   </g>
 </svg>
 '''

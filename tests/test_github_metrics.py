@@ -146,7 +146,10 @@ class ActivityTests(unittest.TestCase):
         self.assertIn("#8FFF52", svg)
         self.assertIn("#050705", svg)
         line = root.find(".//{http://www.w3.org/2000/svg}polyline")
-        self.assertEqual(line.attrib["points"], "52.0,220.0 806.0,220.0")
+        coordinates = [tuple(map(float, point.split(","))) for point in line.attrib["points"].split()]
+        self.assertEqual(coordinates[0][1], coordinates[1][1])
+        self.assertGreater(coordinates[1][0], coordinates[0][0])
+        self.assertTrue(all(0 <= x <= 860 and 0 <= y <= 320 for x, y in coordinates))
 
 
 if __name__ == "__main__":

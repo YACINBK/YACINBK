@@ -26,20 +26,20 @@
 <br/>
 
 <div align="center">
-  <img src="assets/projects-panel.svg?v=3" width="860" alt="Featured projects: Role-Aware RAG Assistant, UX Insight Platform, Agentic Video Pipeline"/>
+  <img src="assets/projects-panel.svg" width="860" alt="Featured projects"/>
 </div>
 
+<!-- Each complete card is its own link; SVG-internal links do not work in README images. -->
 <p align="center">
-  <a href="#rag-assistant"><strong>RAG Knowledge Assistant</strong></a> ·
-  <a href="https://github.com/YACINBK/ux-insight-platform"><strong>UX Insight Platform</strong></a> ·
-  <a href="https://github.com/YACINBK/content-automation"><strong>Agentic Video Pipeline</strong></a>
+  <a href="https://github.com/YACINBK/Agentic_Rag_Assistant"><img src="assets/project-rag.svg" width="280" alt="Secure Role-Aware RAG Assistant — View repository"/></a>
+  <a href="https://github.com/YACINBK/ux-insight-platform"><img src="assets/project-ux-insight.svg" width="280" alt="UX Insight Platform — View repository"/></a>
+  <a href="https://github.com/YACINBK/content-automation"><img src="assets/project-video.svg" width="280" alt="Agentic Video Production Pipeline — View repository"/></a>
 </p>
 
-<a id="rag-assistant"></a>
 <details>
 <summary><strong>Inside the projects — what I built and why it matters</strong></summary>
 
-**Role-Aware RAG Knowledge Assistant · White Cape Technologies, 2026**
+**[Secure Role-Aware RAG Assistant](https://github.com/YACINBK/Agentic_Rag_Assistant) · White Cape Technologies, 2026**
 
 An internal assistant for company knowledge and codebases. A nine-node LangGraph workflow retrieves, reranks, checks relevance, and streams cited answers. Keycloak permissions are enforced inside retrieval, and inference runs locally with Ollama. Evaluation showed **zero authorization violations across 280 audited retrievals** and **46% less context while preserving direct-evidence recall** on the evaluation set. Probing the faithfulness check also exposed a lexical-overlap blind spot, captured as a regression test.
 
@@ -88,6 +88,8 @@ Runs video production end to end with Python, Playwright, FFmpeg, Whisper, and v
 <p align="center">
   <img src="https://img.shields.io/github/stars/YACINBK?style=for-the-badge&label=Stars&color=8FFF52&labelColor=050705" alt="GitHub Stars"/>
   <img src="https://img.shields.io/github/followers/YACINBK?style=for-the-badge&label=Followers&color=8FFF52&labelColor=050705" alt="GitHub Followers"/>
+  <!-- Keep this counter remote: saving it in the scheduled SVGs would count workflow fetches instead of README image loads. -->
+  <img src="https://komarev.com/ghpvc/?username=YACINBK&amp;label=Profile%20views&amp;color=8FFF52&amp;style=for-the-badge" alt="Profile views" title="Approximate counter of badge loads, not unique visitors; caching can affect counts"/>
 </p>
 
 <p align="center">
