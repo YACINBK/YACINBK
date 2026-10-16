@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="140" viewBox="0 0 860 140" role="img" aria-label="Yacin Ben Kacem">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0c0f0c"/>
+      <stop offset="50%" stop-color="#111611"/>
+      <stop offset="100%" stop-color="#0c0f0c"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8FFF52" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8FFF52" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8FFF52" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="140" rx="18" fill="#050705"/>
+  <rect width="860" height="140" rx="18" fill="url(#bg)" opacity="0.45"/>
+  <rect width="860" height="140" rx="18" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.2;0.55;0.2" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="12" y="12" width="836" height="116" rx="14" fill="none" stroke="#8FFF52" stroke-opacity="0.35"/>
+  <text x="430" y="68" fill="#E5F5E5" font-size="34" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="700" text-anchor="middle">Yacin Ben Kacem</text>
+  <text x="430" y="98" fill="#8FFF52" font-size="16" font-family="Segoe UI, Inter, Arial, sans-serif" text-anchor="middle" opacity="0.9">Secure Agentic AI · RAG · Automation</text>
+  <line x1="250" y1="112" x2="610" y2="112" stroke="#8FFF52" stroke-width="2" stroke-linecap="round" opacity="0.45">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -1,53 +1,105 @@
+<div align="center">
+  <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
+</div>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-yacinbenkacem.me-050705?style=for-the-badge&logo=firefoxbrowser&logoColor=8FFF52&labelColor=11160F)](https://yacinbenkacem.me/)
+[![GitHub](https://img.shields.io/badge/GitHub-YACINBK-050705?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=11160F)](https://github.com/YACINBK)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yacin%20Ben%20Kacem-050705?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=11160F)](https://www.linkedin.com/in/yacin-ben-kacem/)
+[![Email](https://img.shields.io/badge/Email-Open%20to%20Work-050705?style=for-the-badge&logo=gmail&logoColor=8FFF52&labelColor=11160F)](mailto:yacinbenkacem19@gmail.com)
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/hero-runtime-panel.svg" width="860" alt="Final-year Software Engineering student at ENISO, building secure AI agents and grounded RAG systems"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/expertise-panel.svg" width="860" alt="Agentic AI and RAG, AI security and evaluation, resilient automation"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/projects-panel.svg?v=3" width="860" alt="Featured projects: Role-Aware RAG Assistant, UX Insight Platform, Agentic Video Pipeline"/>
+</div>
+
 <p align="center">
-  <img src="assets/profile-header.svg" width="860" alt="Yacin Ben Kacem — Secure agentic AI &amp; RAG" />
+  <a href="#rag-assistant"><strong>RAG Knowledge Assistant</strong></a> ·
+  <a href="https://github.com/YACINBK/ux-insight-platform"><strong>UX Insight Platform</strong></a> ·
+  <a href="https://github.com/YACINBK/content-automation"><strong>Agentic Video Pipeline</strong></a>
+</p>
+
+<a id="rag-assistant"></a>
+<details>
+<summary><strong>Inside the projects — what I built and why it matters</strong></summary>
+
+**Role-Aware RAG Knowledge Assistant · White Cape Technologies, 2026**
+
+An internal assistant for company knowledge and codebases. A nine-node LangGraph workflow retrieves, reranks, checks relevance, and streams cited answers. Keycloak permissions are enforced inside retrieval, and inference runs locally with Ollama. Evaluation showed **zero authorization violations across 280 audited retrievals** and **46% less context while preserving direct-evidence recall** on the evaluation set. Probing the faithfulness check also exposed a lexical-overlap blind spot, captured as a regression test.
+
+**[UX Insight Platform](https://github.com/YACINBK/ux-insight-platform) · White Cape Technologies, 2025**
+
+Turns screenshots and interaction data into evidence-backed UX reports. Combines UI detection, OCR, and ChromaDB retrieval with provider-agnostic inference. Angular, Spring Boot, and FastAPI handle the interface and services, with asynchronous jobs and Keycloak authentication.
+
+**[Agentic Video Production Pipeline](https://github.com/YACINBK/content-automation) · 2026**
+
+Runs video production end to end with Python, Playwright, FFmpeg, Whisper, and voice-cloning TTS. Inspects completed work before each step, reformulates rejected generations, and resumes after interruption. Selector fallbacks and retries make browser steps more resilient.
+
+**Also building:** MCP tools and planner–generator–evaluator workflows for daily development, plus [AI image vectorization](https://github.com/YACINBK/image-vectorization) and [QuickFlow](https://github.com/TaherBenAfia/quickflow).
+
+</details>
+
+<br/>
+
+<div align="center">
+  <img src="assets/philosophy-ticker.svg" width="860" alt="Philosophy"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/tech-stack-banner.svg" width="860" alt="Tech Stack"/>
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,cpp&theme=dark&perline=6" alt="Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,spring,angular,react,pytorch,tensorflow&theme=dark&perline=6" alt="Frameworks and AI"/>
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,git,linux,github&theme=dark&perline=6" alt="Data and Infrastructure"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/analytics-banner.svg" width="860" alt="GitHub Analytics"/>
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/YACINBK?style=for-the-badge&label=Stars&color=8FFF52&labelColor=050705" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/followers/YACINBK?style=for-the-badge&label=Followers&color=8FFF52&labelColor=050705" alt="GitHub Followers"/>
 </p>
 
 <p align="center">
-  <a href="https://yacinbenkacem.me/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/yacin-ben-kacem/">LinkedIn</a> ·
-  <a href="mailto:yacinbenkacem19@gmail.com">Email</a>
+  <img src="assets/generated/github-metrics.svg" width="860" alt="Public GitHub repositories, stars, and followers; last successful refresh shown in the panel"/>
 </p>
 
-I'm a final-year **Software Engineering student at ENISO**, based in Tunisia. I build AI agents and RAG systems with access control, grounded answers, and workflows that recover when things go wrong.
+<p align="center">
+  <a href="https://github.com/YACINBK#year-list-container"><img src="assets/generated/activity-graph.svg" width="860" alt="Weekly GitHub contributions over the past year"/></a>
+</p>
 
-My focus: **secure retrieval, agent orchestration, and evaluation**. Most recently, I built a role-aware knowledge assistant at White Cape Technologies.
+<br/>
 
-## Selected work
-
-### Role-Aware RAG Knowledge Assistant
-
-An internal assistant for company knowledge and codebases. A LangGraph workflow retrieves, reranks, and streams cited answers, with permissions enforced inside retrieval and inference running locally.
-
-Evaluation drove the design: **46% less retrieved context while preserving direct-evidence recall** on the evaluation set, and **zero authorization violations across 280 audited retrievals**.
-
-**Built with:** LangGraph, FastAPI, Qdrant, Ollama, Keycloak · White Cape Technologies, 2026
-
-### [UX Insight Platform](https://github.com/YACINBK/ux-insight-platform)
-
-Turns screenshots and interaction data into evidence-backed UX reports. Combines UI detection, OCR, and RAG, with provider-agnostic inference and asynchronous jobs behind a secure gateway.
-
-**Built with:** Angular, Spring Boot, FastAPI, ChromaDB, Keycloak · White Cape Technologies, 2025
-
-### [Agentic Video Production Pipeline](https://github.com/YACINBK/content-automation)
-
-Automates video production end to end. Checks completed work before each step, reformulates rejected generations, and resumes after interruption. Browser automation uses selector fallbacks and retries.
-
-**Built with:** Python, Playwright, FFmpeg, Whisper, voice-cloning TTS
-
-## What I work with
-
-- **Agents & retrieval:** LangGraph, MCP, LiteLLM, Ollama, Qdrant, retrieval evaluation
-- **Security & backend:** Python, FastAPI, Spring Boot, Keycloak, OAuth 2.0 / OIDC, RBAC
-- **Data & delivery:** PostgreSQL, Redis, Celery, Docker, contract-driven testing
-
-Also building MCP tools and planner–generator–evaluator workflows for my daily development work.
-
-## GitHub activity
-
-[![Public GitHub metrics for YACINBK](assets/generated/github-metrics.svg)](https://github.com/YACINBK?tab=repositories)
-
-Public metrics refresh every six hours via [GitHub Actions](https://github.com/YACINBK/YACINBK/actions/workflows/github-stats.yml); the panel shows the last successful update. [Contribution history](https://github.com/YACINBK#year-list-container).
-
----
-
-Interested in secure AI systems or agentic automation? [Let's talk](mailto:yacinbenkacem19@gmail.com).
+<div align="center">
+  <a href="mailto:yacinbenkacem19@gmail.com"><img src="assets/closing-cta.svg" width="860" alt="Open to internships and collaborations in secure agentic AI, RAG, and automation"/></a>
+</div>

@@ -6,7 +6,10 @@ from unittest.mock import patch
 from urllib.error import HTTPError, URLError
 from xml.etree import ElementTree
 
-from scripts.github_metrics import collect, generate, render, request_json
+from scripts.github_metrics import (
+    collect, collect_activity, generate, generate_activity,
+    render, render_activity, request_json,
+)
 
 
 def repo(identifier, stars=1):
@@ -96,6 +99,54 @@ class MetricsTests(unittest.TestCase):
             request_json("/users/YACINBK")
         self.assertEqual(open_url.call_count, 1)
         sleep.assert_not_called()
+
+
+def calendar(days):
+    return {"data": {"user": {"contributionsCollection": {
+        "contributionCalendar": {"weeks": [{"contributionDays": days}]}
+    }}}}
+
+
+class ActivityTests(unittest.TestCase):
+    def test_aggregates_calendar_and_uses_query_variables(self):
+        def fetch(path, payload):
+            self.assertEqual(path, "/graphql")
+            self.assertEqual(payload["variables"], {"login": "YACINBK"})
+            return calendar([
+                {"date": "2026-10-15", "contributionCount": 2},
+                {"date": "2026-10-16", "contributionCount": 3},
+            ])
+
+        self.assertEqual(collect_activity("YACINBK", fetch), ([5], "2026-10-15", "2026-10-16"))
+
+    def test_api_and_calendar_errors_preserve_previous_graph(self):
+        invalid = [
+            {"errors": [{"message": "Resource unavailable"}]},
+            calendar([]),
+            calendar([{"date": "2026-10-16", "contributionCount": -1}]),
+            calendar([
+                {"date": "2026-10-14", "contributionCount": 0},
+                {"date": "2026-10-16", "contributionCount": 0},
+            ]),
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "activity.svg"
+            for response in invalid:
+                with self.subTest(response=response):
+                    output.write_text("previous graph")
+                    with self.assertRaises(ValueError):
+                        generate_activity("YACINBK", output, lambda path, payload: response)
+                    self.assertEqual(output.read_text(), "previous graph")
+
+    def test_zero_activity_renders_valid_graph_in_original_palette(self):
+        svg = render_activity("YACINBK", ([0, 0], "2026-10-05", "2026-10-16"),
+                              datetime(2026, 10, 16, 12, tzinfo=timezone.utc))
+        root = ElementTree.fromstring(svg)
+        self.assertIn("0 contributions", svg)
+        self.assertIn("#8FFF52", svg)
+        self.assertIn("#050705", svg)
+        line = root.find(".//{http://www.w3.org/2000/svg}polyline")
+        self.assertEqual(line.attrib["points"], "52.0,220.0 806.0,220.0")
 
 
 if __name__ == "__main__":
