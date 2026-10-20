@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/typing-header.svg" width="860" alt="Yacin Ben Kacem"/>
+  <img src="assets/typing-header.svg" width="860" alt="Yassine Ben Kacem"/>
 </div>
 
 <div align="center">
